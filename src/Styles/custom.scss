@@ -1,0 +1,20 @@
+@import 'variables.scss';
+/* make the customizations */
+
+$theme-colors: (
+  'primary': #FE7AB3,
+  'secondary': #59E1CD,
+  'info': #C9B5FD,
+  'warning': #F0E94E
+);
+
+body {
+    background-color: $light-gray !important;
+}
+
+
+.btn-primary {
+  color: #ffffff !important;  
+}
+
+/* También puedes asegurarte de personalizar el color de fondo si es necesario */

@@ -1,0 +1,41 @@
+@import 'custom.scss'; /* Personaliza las variables antes de importar Bootstrap */
+@import '~bootstrap/scss/bootstrap'; /* Luego importa Bootstrap */
+
+
+
+  .landing {
+    font-family: Arial, sans-serif;
+    //background: linear-gradient(to bottom, #FCD6DC, #F1D3F4);
+    background-image: url('../img/bg-gradient.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    &__bg-dibujo {
+        background-image: url('../img/bg-dibu.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+  }
+  
+  .header .logo {
+    font-size: 36px;
+    color: #ff6b6b;
+    margin: 20px 0;
+  }
+  
+  .intro h1 {
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  
+
+  
+  .content-item img {
+    width: 100%;
+    height: auto;
+  }
+  
