@@ -8,14 +8,15 @@ import "./Styles/Components/_buttons.scss";
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
 
-import { Menu } from "./Menu";
-import Ux from "./Ux";
+import Menu from "./Menu";
 import Home from "./Home";
+import Ux from "./Ux";
+
 
 import Illustrations from "./Illustrations";
 
 import Contact from "./Contact";
-import ProjectsList from "./ProjectsList";
+import Front from "./Front";
 
 
 
@@ -40,16 +41,10 @@ function App() {
               )
             }} /> */}
 <Routes>
-  <Route path="/ux-ui" element={<Ux />} />
-  <Route path="/illustrations" element={<Illustrations />} />
-  <Route path="/front-end" element={<ProjectsList />} />
-  <Route path="/contact" element={<Contact />} />
-</Routes>
-<Routes>
-  <Route path="/ux-ui" element={<Ux />} />
-  <Route path="/illustrations" element={<Illustrations />} />
-  <Route path="/front-end" element={<ProjectsList />} />
-  <Route path="/contact" element={<Contact />} />
+<Route path="/ux-ui" element={<Ux />} />
+<Route path="/illustrations" element={<Illustrations />} />
+<Route path="/front-end" element={<Front />} />
+<Route path="/contact" element={<Contact />} />
 </Routes>
 
           </Router>
