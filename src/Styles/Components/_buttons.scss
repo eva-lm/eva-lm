@@ -1,0 +1,93 @@
+@import "../components/_variables";
+
+.header__button {
+  margin-top: 30px;
+  font-size: 12px;
+  background: transparent;
+  color: $colorBlue;
+  font-family: $fontTitle;
+  padding: 4px 6px;
+  border: 1px solid $colorBlue;
+  transition: all 2s;
+  cursor: pointer;
+}
+.header__button:hover {
+  color: $colorLight;
+  background-color: $colorBlue;
+}
+.about__button {
+  font-size: 12px;
+  background: transparent;
+  color: $colorBlue;
+  font-family: $fontTitle;
+  padding: 4px 6px;
+  margin: 3px;
+  border: 1px solid $colorBlue;
+  transition: all 2s;
+  cursor: pointer;
+}
+.about__button:hover {
+  color: $colorLight;
+  background-color: $colorBlue;
+}
+.form__button {
+  width: 200px;
+  font-size: 12px;
+  background: transparent;
+  color: $colorBlue;
+  font-family: $fontTitle;
+  padding: 4px 6px;
+  border: 1px solid $colorBlue;
+  transition: all 2s;
+  cursor: pointer;
+}
+.form__button:hover {
+  color: $colorLight;
+  background-color: $colorBlue;
+}@import "../components/_variables";
+
+.header__button {
+  margin-top: 30px;
+  font-size: 12px;
+  background: transparent;
+  color: $colorBlue;
+  font-family: $fontTitle;
+  padding: 4px 6px;
+  border: 1px solid $colorBlue;
+  transition: all 2s;
+  cursor: pointer;
+}
+.header__button:hover {
+  color: $colorLight;
+  background-color: $colorBlue;
+}
+.about__button {
+  font-size: 12px;
+  background: transparent;
+  color: $colorBlue;
+  font-family: $fontTitle;
+  padding: 4px 6px;
+  margin: 3px;
+  border: 1px solid $colorBlue;
+  transition: all 2s;
+  cursor: pointer;
+}
+.about__button:hover {
+  color: $colorLight;
+  background-color: $colorBlue;
+}
+.form__button {
+  width: 200px;
+  font-size: 12px;
+  background: transparent;
+  color: $colorBlue;
+  font-family: $fontTitle;
+  padding: 4px 6px;
+  border: 1px solid $colorBlue;
+  transition: all 2s;
+  cursor: pointer;
+}
+.form__button:hover {
+  color: $colorLight;
+  background-color: $colorBlue;
+}
