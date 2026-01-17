@@ -1,8 +1,11 @@
 const Menu = () => {
   return (
-    <nav>
-      Menu
+    <header className="d-flex align-items-center justify-content-between p-3">
+         <nav>
+          <div className="logo">LOGO</div>
+             <div className="rrss">RRSS</div>
     </nav>
+      </header>
   );
 };
 

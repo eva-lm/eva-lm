@@ -1,5 +1,5 @@
 const Ux = () => {
-  return <div>Home</div>;
+  return <div>soy Ux</div>;
 };
 
 export default Ux;
