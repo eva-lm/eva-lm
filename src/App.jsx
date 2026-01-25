@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import { Routes, Route } from "react-router-dom";
 import { Outlet, useLocation } from "react-router-dom";
+import "./Styles/App.scss";
 
 import MenuRRSS from "./MenuRRSS";
 import HomeSkillsMenu from "./components/HomeSkillsMenu";
@@ -12,11 +12,12 @@ import Illustrations from "./pages/Illustrations";
 import Contact from "./pages/Contact";
 import Front from "./pages/Front";
 
+
 function App() {
   const { pathname } = useLocation();
   const isHome = pathname === "/";
   return (
-    <>
+           <div className="landing m-0 vh-100">
       <MenuRRSS />
       {isHome ? <HomeSkillsMenu /> : <MenuSkills />}
       <Outlet />
@@ -31,7 +32,7 @@ function App() {
         <Route path="/front-end" element={<Front />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </>
+      </div>
   );
 }
 

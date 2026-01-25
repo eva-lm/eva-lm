@@ -1,25 +1,8 @@
 @import "../components/_variables";
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: $colorLight;
-  width: 100%;
-  height: auto;
   z-index: 1;
-  &__nav-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    font-family: $fontTitle;
-    font-size: 14px;
-    padding: 20px 0;
-    box-shadow: rgba(57, 57, 57, 0.24) 0px 15px 12px 3px;
-  }
-  &__nav {
+  &__nav-color {
     display: flex;
     flex-direction: column;
     .gradientHover {
@@ -65,72 +48,7 @@
       position: relative;
     }
   }
-  &__logo {
-    // width: 10%;
-  }
-  &__logo-img {
-    height: 40px;
-    margin: 10px 20px 5px 40px;
-  }
-  &__social {
-    display: flex;
-    align-items: center;
-    margin: 15px 30px;
-  }
-  .fa-github {
-    font-size: 24px;
-    margin: 0 10px;
-    padding: 0 5px;
-    color: $colorText;
-    transition: all 0.8s;
-    &:hover {
-      background: -webkit-linear-gradient(
-        0deg,
-        rgba(0, 200, 200, 1) 0%,
-        rgb(255, 6, 160) 100%
-      );
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      color: $aqua;
-      transform: scale(1.2);
-    }
-  }
-  .fa-twitter {
-    font-size: 24px;
-    margin: 0 10px;
-    padding: 0 5px;
-    color: $colorText;
-    transition: all 0.8s;
-    &:hover {
-      background: -webkit-linear-gradient(
-        0deg,
-        rgba(0, 200, 200, 1) 0%,
-        rgb(255, 6, 160) 100%
-      );
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      color: $aqua;
-      transform: scale(1.2);
-    }
-  }
-  .fa-instagram {
-    font-size: 24px;
-    margin: 0 10px;
-    padding: 0 5px;
-    color: $colorText;
-    transition: all 0.8s;
-    &:hover {
-      background: -webkit-linear-gradient(
-        0deg,
-        rgba(0, 200, 200, 1) 0%,
-        rgb(255, 6, 160) 100%
-      );
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      color: $aqua;
-      transform: scale(1.2);
-    }
-  }
+
 }
 .add-color {
   background-color: white;

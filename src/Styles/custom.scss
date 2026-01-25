@@ -2,11 +2,12 @@
 /* make the customizations */
 
 $theme-colors: (
-  'primary': #FE7AB3,
-  'secondary': #59E1CD,
-  'info': #C9B5FD,
+  'primary': #9A76CF,
+  'secondary': #76CF9A,
+  'info': #ce6bc9,
   'warning': #F0E94E
 );
+  
 
 body {
     background-color: $light-gray !important;
