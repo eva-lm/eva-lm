@@ -19,13 +19,14 @@ function App() {
   return (
            <div className="landing m-0 vh-100">
       <MenuRRSS />
+      <Routes>
+                {/* HOME */}
+          <Route path="/" element={<Home />} />
+      </Routes>
       {isHome ? <HomeSkillsMenu /> : <MenuSkills />}
       <Outlet />
 
       <Routes>
-        {/* HOME */}
-        <Route path="/" element={<Home />} />
-
         {/* PÁGINAS INTERNAS */}
         <Route path="/ux-ui" element={<Ux />} />
         <Route path="/illustrations" element={<Illustrations />} />
