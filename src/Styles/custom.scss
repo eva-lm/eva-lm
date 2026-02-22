@@ -3,16 +3,12 @@
 
 $theme-colors: (
   'primary': #9A76CF,
-  'secondary': #76CF9A,
+  'secondary': #D575CD,
+  'tertiary': #C9B5FD,
   'info': #d575cd,
   'warning': #F0E94E
 );
   
-
-body {
-    background-color: $light-gray !important;
-}
-
 
 .btn-primary {
   color: #ffffff !important;  

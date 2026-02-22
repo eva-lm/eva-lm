@@ -1,1 +1,27 @@
 $light-gray: F0F0F0;
+
+$font-caveat: "Caveat", cursive;
+$font-space: "Space Mono", monospace;
+$font-teachers: 'Teachers', sans-serif;
+
+
+h1, h3 {
+  font-family: $font-caveat;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: $font-space;
+}
+
+body {
+  font-family: $font-teachers!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// .nav,
+// .button,
+// .small-text {
+//   font-family: $small-text;
+// }
