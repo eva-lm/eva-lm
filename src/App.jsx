@@ -21,11 +21,11 @@ function App() {
   return (
            <div className="landing m-0 vh-100">
        <MenuRRSS />
+            <Container>
       <Routes>
                 {/* HOME */}
           <Route path="/" element={<Home />} />
       </Routes>
-            <Container>
       {isHome ? <HomeSkillsMenu /> : <MenuSkills />}
       <Outlet />
 

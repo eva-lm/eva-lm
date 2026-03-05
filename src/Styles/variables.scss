@@ -1,8 +1,9 @@
 $light-gray: F0F0F0;
 
 $font-caveat: "Caveat", cursive;
-$font-space: "Space Mono", monospace;
+$font-karla:  "Karla", sans-serif;
 $font-teachers: 'Teachers', sans-serif;
+$font-poppins: "Poppins", sans-serif;
 
 
 h1, h3 {
@@ -11,7 +12,9 @@ h1, h3 {
 }
 
 h2 {
-  font-family: $font-space;
+  font-family: $font-teachers;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
 }
 
 body {

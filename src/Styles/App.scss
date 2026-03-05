@@ -13,9 +13,16 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; 
-        height: 345px;
+        height: 302px;
     }
   }
   
+  @media all and (min-width: 1024px) {
+   .landing {
+    &__bg-dibujo {
+        background-image: url('../img/bg-dibu2.svg');
+    }
+   }
+ }
   
 

@@ -15,13 +15,14 @@ const Home = () => {
   }, []);
 
   return (
-           <div className="landing__bg-dibujo m-0 d-flex flex-column align-items-center justify-content-center">
-            <div className="d-flex align-items-center justify-content-center">
-        <Row className="intro">
-          <Col xs={12} className="d-flex align-items-center">
-          <div className="text-end mt-4">
-            <h1 className="fs-1 text-secondary">UX/UI Digital Product Designer</h1>
-            <div className="underline-animation w-100 d-flex align-items-center justify-content-center">
+           <div className="landing__bg-dibujo m-0 d-flex align-items-center center justify-content-center">
+            <div className="">
+        <Row className="intro p-2">
+          <Col xs={12} className="d-flex flex-column flex-md-row align-items-center justify-content-between">
+          <div className="me-md-4">
+            <small class="text-lightGray ms-1">Eva - Portfolio</small>
+            <h1 className="fs-1 text-text mt-2">UX/UI Digital Product Designer</h1>
+             <div className="underline-animation w-100 d-flex align-items-center">
                 <Lottie
                   lottieRef={lottieRef}
                   animationData={lineAnimation}
@@ -30,22 +31,23 @@ const Home = () => {
                   className="lottie-line"
                 />
             </div>
-                                  <h2 className="fs-6">
-              Hey there! I'm a creative graphic and web designer based in sunny
-              San Francisco
+
+             <h2 className="fs-6 mt-2 ms-1 text-gray">
+              Hola! 👋 Soy Eva,diseñadora de <b>producto digital</b> y desarrolladora <b>front-end</b>
             </h2>
+
           </div>
           <div className="ms-md-3">
-            <img src={imgHeader} alt="dibujo de un ordenador con elementos de diseño y web" width="250" />
+            <img src={imgHeader} class="img-header" alt="dibujo de un ordenador con elementos de diseño y web" width="300" />
           </div>
           </Col>
         </Row>
             </div>
               <div>
-                      {/* <h2 className="fs-6 mt-3">
-              Hey there! I'm a creative graphic and web designer based in sunny
-              San Francisco
-            </h2> */}
+                      {/*   
+                          Hola! Mi nombre es Eva y  Soy <strong>desarrolladora front-end junior e ilustradora digital</strong>. También tengo algunas nociones de diseño Ux-Ui y estoy estudiando Animación 3D. Me encanta combinar diseño con código, elaborar propuestas a partir de una idea para después darles funcionalidad.
+
+                                      Puedes contactar conmigo a través del apartado contacto o desde mis redes sociales accediendo desde el menú. ¡Estaré encantada de responderte! 🙂 */}
         </div>
       </div>
   );
