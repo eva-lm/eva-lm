@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   return (
-           <div className="landing__bg-dibujo m-0 d-flex align-items-center center justify-content-center">
+           <div className="d-flex align-items-center center justify-content-center">
             <div className="">
         <Row className="intro p-2">
           <Col xs={12} className="d-flex flex-column flex-md-row align-items-center justify-content-between">
@@ -38,7 +38,7 @@ const Home = () => {
 
           </div>
           <div className="ms-md-3">
-            <img src={imgHeader} class="img-header" alt="dibujo de un ordenador con elementos de diseño y web" width="300" />
+            <img src={imgHeader} class="img-header" alt="dibujo de un ordenador con elementos de diseño y web" width="350" />
           </div>
           </Col>
         </Row>

@@ -3,26 +3,26 @@
 
 
   .landing {
-    //background: linear-gradient(to bottom, #FCD6DC, #F1D3F4);
     background-image: url('../img/bg-gradient.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
     &__bg-dibujo {
-        background-image: url('../img/bg-dibu.svg');
+        background-image: url('../img/bg-dibu2.svg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; 
-        height: 302px;
+        border: 2px solid #FFFFFF;
+        border-radius: 6px;
     }
   }
   
-  @media all and (min-width: 1024px) {
-   .landing {
-    &__bg-dibujo {
-        background-image: url('../img/bg-dibu2.svg');
-    }
-   }
- }
+//   @media all and (min-width: 1024px) {
+//    .landing {
+//     &__bg-dibujo {
+//         background-image: url('../img/bg-dibu2.svg');
+//     }
+//    }
+//  }
   
 

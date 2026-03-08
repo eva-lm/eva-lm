@@ -14,14 +14,15 @@ import Illustrations from "./pages/Illustrations";
 import Contact from "./pages/Contact";
 import Front from "./pages/Front";
 import NutriBite from "./pages/projectsUx/nutriBite";
+import Footer from "./Footer";
 
 function App() {
   const { pathname } = useLocation();
   const isHome = pathname === "/";
   return (
-           <div className="landing m-0 vh-100">
+           <div className="landing m-0 vh-100 d-flex flex-column">
        <MenuRRSS />
-            <Container>
+            <Container className="landing__bg-dibujo h-100 mt-5">
       <Routes>
                 {/* HOME */}
           <Route path="/" element={<Home />} />
@@ -40,6 +41,7 @@ function App() {
         <Route path="/ux-ui/nutribite" element={<NutriBite />} />
       </Routes>
        </Container>
+      <Footer />
       </div>
   );
 }
