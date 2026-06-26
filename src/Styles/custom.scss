@@ -1,16 +1,33 @@
 @import 'variables.scss';
 /* make the customizations */
 
+// $theme-colors: (
+//   'primary': #9A76CF,
+//   'secondary': #D575CD,
+//   'tertiary': #C9B5FD,
+//   'info': #59E1CD,
+//   'darkInfo': #46BBAA,
+//   'warning': #F0E94E,
+//   'darkWarning': #C5BC0E,
+//   'text': #1A1A1A,
+//   'gray': #2e2a2a,
+//   'lightGray': #8d8282
+// );
+  
+
 $theme-colors: (
-  'primary': #9A76CF,
-  'secondary': #D575CD,
-  'tertiary': #C9B5FD,
-  'info': #59E1CD,
-  'darkInfo': #46BBAA,
-  'warning': #F0E94E,
-  'darkWarning': #C5BC0E,
+  'primary': #623696,
+  'primary-light': rgb(211, 195, 255),
+  'primary-medium': rgb(169, 148, 253),
+  'secondary': #cd49c2,
+  'secondary-light': rgb(250, 186, 234),
+  // 'tertiary': #C9B5FD,
+  'accent': #359184,
+  'accent-light': rgb(151, 247, 233),
+  'tertiary': #C5BC0E,
+  'tertiary-light': rgb(255, 251, 151),
   'text': #1A1A1A,
-  'gray': #484545,
+  'gray': #2e2a2a,
   'lightGray': #8d8282
 );
   
@@ -22,4 +39,11 @@ body {
   color: #1A1A1A !important;
 }
 
-/* También puedes asegurarte de personalizar el color de fondo si es necesario */
+/* Para pantallas de portátil en adelante */
+@media (width >= 1200px) {
+  .container-fluid {
+    max-width: 1450px !important; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

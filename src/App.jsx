@@ -5,10 +5,10 @@ import { Container } from "react-bootstrap";
 
 
 import MenuRRSS from "./MenuRRSS";
-import HomeSkillsMenu from "./components/HomeSkillsMenu";
+import Bento from "./components/Bento";
 import MenuSkills from "./components/MenuSkills";
 
-import Home from "./pages/Home";
+import Hero from "./pages/Hero";
 import Ux from "./pages/Ux";
 import Illustrations from "./pages/Illustrations";
 import Contact from "./pages/Contact";
@@ -20,14 +20,16 @@ function App() {
   const { pathname } = useLocation();
   const isHome = pathname === "/";
   return (
-           <div className="landing m-0 vh-100 d-flex flex-column">
+           <div className="landing m-0 min-vh-100 d-flex flex-column bg-primary-light">
+            <div className="d-flex flex-column flex-grow-1">
        <MenuRRSS />
-            <Container className="landing__bg-dibujo h-100 mt-5">
+       <main>
+        <Container fluid>
       <Routes>
                 {/* HOME */}
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Hero />} />
       </Routes>
-      {isHome ? <HomeSkillsMenu /> : <MenuSkills />}
+      {isHome ? <Bento /> : <MenuSkills />}
       <Outlet />
 
       <Routes>
@@ -40,8 +42,10 @@ function App() {
         {/* PROYECTOS UX/UI */}
         <Route path="/ux-ui/nutribite" element={<NutriBite />} />
       </Routes>
-       </Container>
+              </Container>
+              </main>
       <Footer />
+       </div>
       </div>
   );
 }

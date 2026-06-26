@@ -6,40 +6,48 @@ import "./Styles/Layout/MenuRRSS.scss";
 
 const MenuRRSS = () => {
   return (
-    <header>
-      <nav className="d-flex align-items-center justify-content-between py-3 px-4">
+    <header class="menu-top mb-4 bg-primary">
+      <Container fluid>
+      <nav className="d-flex flex-column flex-md-row align-items-center justify-content-between py-3">
         <Link to="/">
           <div>
             <img src={logo} alt="logo web" height="45" />
           </div>
         </Link>
-        <div className="menuRSS">
-          <a
-            class="fs-3 text-secondary"
-            href="https://www.instagram.com/eva-lm9/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fab fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a
-            class="fs-3 mx-3 text-secondary"
-            href="https://github.com/eva-lm"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fab fa-github" aria-hidden="true"></i>
-          </a>
-          <a
-            class="fs-3 text-secondary"
-            href="https://twitter.com/Eva_lm9"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fab fa-twitter" aria-hidden="true"></i>
-          </a>
-        </div>
+        <ul className="rrss mt-2 mt-md-0">
+          <li>
+            <a
+              class="fs-3 text-white"
+              href="https://github.com/eva-lm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="fs-3 mx-3 text-white"
+              href="https://www.linkedin.com/in/eva-lm/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+                    <li>
+            <a
+              class="fs-3 text-white"
+              href="https://www.instagram.com/eva-lm9/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
       </nav>
+      </Container>
     </header>
   );
 };
