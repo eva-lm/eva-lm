@@ -21,7 +21,7 @@ function App() {
   const isHome = pathname === "/";
   return (
            <div className="landing m-0 min-vh-100 d-flex flex-column bg-primary-light">
-            <div className="d-flex flex-column flex-grow-1">
+            <div className="d-flex flex-column justify-content-between flex-grow-1">
        <MenuRRSS />
        <main>
         <Container fluid>

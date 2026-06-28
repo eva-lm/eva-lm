@@ -17,16 +17,16 @@
 
 $theme-colors: (
   'primary': #623696,
-  'primary-light': rgb(211, 195, 255),
+  'primary-light': rgb(218, 205, 255),
   'primary-medium': rgb(169, 148, 253),
   'secondary': #cd49c2,
   'secondary-light': rgb(250, 186, 234),
   // 'tertiary': #C9B5FD,
   'accent': #359184,
   'accent-light': rgb(151, 247, 233),
-  'tertiary': #C5BC0E,
+  'tertiary': #b4ac0a,
   'tertiary-light': rgb(255, 251, 151),
-  'text': #1A1A1A,
+  'black': #1A1A1A,
   'gray': #2e2a2a,
   'lightGray': #8d8282
 );
@@ -37,6 +37,13 @@ $theme-colors: (
 }
 body {
   color: #1A1A1A !important;
+}
+
+.border-top-white {
+    border-top: 1.3px solid #ffffff;
+}
+.border-bottom-white {
+    border-bottom: 1.3px solid #ffffff;
 }
 
 /* Para pantallas de portátil en adelante */

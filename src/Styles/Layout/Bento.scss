@@ -1,0 +1,23 @@
+.home-card {
+background: linear-gradient(139.36deg, rgba(255, 255, 255, 0.82) 65.6%, rgba(255, 255, 255, 0.3116) 98.1%);
+border: 2px solid #FFFFFF;
+border-radius: 6px;
+max-width: 100%;
+p {
+  max-width: 300px;
+}
+}
+.img-card {
+
+}
+@media (width >= 1200px) {
+.bg-primary-medium p, .bg-accent-light p {
+  max-width: 450px;
+  margin-right: 2rem;
+}
+
+.bg-seccondary p, .bg-tertiary-light p {
+  max-width: 250px;
+  margin-right: 2rem;
+}
+} 

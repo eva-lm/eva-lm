@@ -4,7 +4,9 @@ $font-karla:  "Karla", sans-serif;
 $font-teachers: 'Teachers', sans-serif;
 $font-poppins: "Poppins", sans-serif;
 
-
+.font-caveat {
+    font-family: $font-caveat;
+}
 h1, h3 {
   font-family: $font-caveat;
   font-weight: 600;

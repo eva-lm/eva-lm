@@ -1,5 +1,6 @@
 import "../Styles/Layout/Hero.scss";
 import { Row, Col } from "react-bootstrap";
+import Button from 'react-bootstrap/Button';
 import imgHeader from "../img/img-header.svg";
 import Lottie from "lottie-react";
 import lineAnimation from "../animation/line.json";
@@ -31,16 +32,20 @@ const Hero = () => {
                 />
             </div>
 
-             <p className="fs-4 mt-2 ms-1 lh-base text-gray text-center text-md-start">
+             <p className="fs-5 mt-2 ms-1 lh-base text-gray text-center text-md-start">
               Hola! 👋 Soy Eva,<br></br>
               <span className="text-decorative"><b>diseñadora</b></span>  de producto digital y 
              <span className="text-decorative"><b> desarrolladora </b></span>front-end
             </p>
 
           </div>
-          <div className="ms-md-3">
-            <img src={imgHeader} class="img-header" alt="dibujo de un post-it" width="340" />
+          <div className="ms-md-3 d-flex flex-column align-items-center justify-content-center bg-img-header h-100">
+            <p class="font-caveat fs-3 text-gray">¿Hablamos?</p>
+            <Button secondary>Contáctame</Button>
           </div>
+            {/* <div className="ms-md-3">
+            <img src={imgHeader} class="img-header" alt="dibujo de un post-it" width="340" />
+          </div> */}
           </Col>
         </Row>
       </div>
