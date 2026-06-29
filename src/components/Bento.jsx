@@ -19,23 +19,23 @@ const Bento = () => {
             <li class="m-0 p-0">
               <Link
                 to="/ux-ui"
-                className="home-card d-flex flex-column flex-lg-row align-items-center justify-content-center text-decoration-none bg-primary-medium p-4 h-100"
+                className="home-card d-flex flex-column flex-lg-row align-items-center  text-decoration-none bg-primary-medium p-4 h-100"
               >
-                <div>
-                  <h2 className="fs-4 fw-bolder text-center text-lg-start text-primary text-uppercase">
-                    UX / UI
-                  </h2>
-                  <p className="fs-5 text-black text-center text-lg-start">
-                    Proyectos de diseño de interfaces y experiencia de usuario
-                  </p>
-                </div>
-                <div className="">
+                <div className="me-lg-3">
                   <img
                     class="img-card"
                     src={imgCardUx}
                     alt="icono de una bombilla encendida con un corazón dentro"
-                    height="106"
+                    height="96"
                   />
+                </div>
+                                <div>
+                  <h2 className="fs-4 fw-bolder text-center text-lg-start text-primary">
+                    UX / UI
+                  </h2>
+                  <p className="fs-5 text-black text-center text-lg-start m-0">
+                    Proyectos de diseño de interfaces y experiencia de usuario
+                  </p>  <span className="home-card__arrow" aria-hidden="true">→</span>
                 </div>
                 {/* <div
   onMouseEnter={() => setHoverUx(true)}
@@ -65,23 +65,23 @@ const Bento = () => {
             <li class="m-0 p-0">
               <Link
                 to="/front-end"
-                className="home-card d-flex flex-column flex-lg-row align-items-center justify-content-center text-decoration-none bg-secondary p-4 h-100"
+                className="home-card d-flex flex-column flex-lg-row align-items-center text-decoration-none bg-secondary p-4 h-100"
               >
-                <div>
-                  <h2 className="fs-4 fw-bolder text-center text-lg-start text-secondary text-uppercase">
-                    Front-end
-                  </h2>
-                  <p className="fs-5 text-black text-center text-lg-start">
-                    Proyectos de desarrollo web en HTML, CSS y JS
-                  </p>
-                </div>
-                <div className="">
+                                <div className="me-lg-3">
                   <img
                     src={imgCardFront}
                     class=""
                     alt="icono de un cohete despegando"
-                    height="106"
+                    height="96"
                   />
+                </div>
+                <div>
+                  <h2 className="fs-4 fw-bolder text-center text-lg-start text-secondary">
+                    Front-end
+                  </h2>
+                  <p className="fs-5 text-black text-center text-lg-start m-0">
+                    Proyectos de desarrollo web en HTML, CSS y JS
+                  </p> <span className="home-card__arrow" aria-hidden="true">→</span>
                 </div>
               </Link>
             </li>
@@ -92,23 +92,23 @@ const Bento = () => {
             <li class="m-0 p-0">
               <Link
                 to="/front-end"
-                className="home-card d-flex flex-column flex-lg-row align-items-center justify-content-center text-decoration-none  bg-tertiary-light p-4 h-100"
+                className="home-card d-flex flex-column flex-lg-row align-items-center  text-decoration-none bg-tertiary-light p-4 h-100"
               >
-                <div>
-                  <h2 className="fs-4 fw-bolder text-center text-lg-start text-tertiary text-uppercase">
-                    Sobre mí
-                  </h2>
-                  <p className="fs-5 text-black text-center text-lg-start">
-                    Accede aquí si quieres conocerme mejor
-                  </p>
-                </div>
-                <div className="">
+                <div className="me-lg-3">
                   <img
                     src={imgCardAboutMe}
                     class=""
                     alt="icono de una chica con un portátil"
-                    height="106"
+                    height="96"
                   />
+                </div>
+                <div>
+                  <h2 className="fs-4 fw-bolder text-center text-lg-start text-tertiary">
+                    Sobre mí
+                  </h2>
+                  <p className="fs-5 text-black text-center text-lg-start m-0">
+                    Accede aquí si quieres conocerme mejor
+                  </p> <span className="home-card__arrow" aria-hidden="true">→</span>
                 </div>
               </Link>
             </li>
@@ -118,23 +118,23 @@ const Bento = () => {
             <li class="m-0 p-0">
               <Link
                 to="/front-end"
-                className="home-card d-flex flex-column flex-lg-row align-items-center justify-content-center text-decoration-none bg-accent-light p-4 h-100"
+                className="home-card d-flex flex-column flex-lg-row align-items-center text-decoration-none bg-accent-light p-4 h-100"
               >
-                <div>
-                  <h2 className="fs-4 fw-bolder text-center text-lg-start text-accent text-uppercase">
-                    Contacto
-                  </h2>
-                  <p className="fs-5 text-black text-center text-lg-start">
-                    Si quieres contactar conmigo, no dudes en escribirme!{" "}
-                  </p>
-                </div>
-                <div className="">
+                <div className="me-lg-3">
                   <img
                     src={imgCardContact}
                     class=""
                     alt="icono de una agenda de contacto"
-                    height="106"
+                    height="96"
                   />
+                </div>
+        <div>
+                  <h2 className="fs-4 fw-bolder text-center text-lg-start text-accent">
+                    Contacto
+                  </h2>
+                  <p className="fs-5 text-black text-center text-lg-start m-0">
+                    Si quieres contactar conmigo, no dudes en escribirme!
+                  </p> <span className="home-card__arrow" aria-hidden="true">→</span>
                 </div>
               </Link>
             </li>

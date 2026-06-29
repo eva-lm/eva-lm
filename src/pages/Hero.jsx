@@ -32,14 +32,13 @@ const Hero = () => {
                 />
             </div>
 
-             <p className="fs-5 mt-2 ms-1 lh-base text-gray text-center text-md-start">
-              Hola! 👋 Soy Eva,<br></br>
-              <span className="text-decorative"><b>diseñadora</b></span>  de producto digital y 
-             <span className="text-decorative"><b> desarrolladora </b></span>front-end
+             <p className="fs-3 mt-2 ms-1 lh-base text-gray text-center text-md-start font-caveat">
+              {/* Hola! 👋 Soy Eva,<br></br>  */}
+              Hola! Soy Eva, <span className="text-decorative"><b>diseñadora</b></span>  de producto digital y <span className="text-decorative"><b>desarrolladora</b></span> front-end
             </p>
 
           </div>
-          <div className="ms-md-3 d-flex flex-column align-items-center justify-content-center bg-img-header h-100">
+          <div className="ms-md-3 d-flex flex-column align-items-center justify-content-center bg-img-header">
             <p class="font-caveat fs-3 text-gray">¿Hablamos?</p>
             <Button secondary>Contáctame</Button>
           </div>

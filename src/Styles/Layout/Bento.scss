@@ -1,23 +1,68 @@
+ @import '../custom.scss';
+ 
 .home-card {
 background: linear-gradient(139.36deg, rgba(255, 255, 255, 0.82) 65.6%, rgba(255, 255, 255, 0.3116) 98.1%);
 border: 2px solid #FFFFFF;
 border-radius: 6px;
 max-width: 100%;
-p {
-  max-width: 300px;
-}
+// p {
+//   max-width: 300px;
+// }
 }
 .img-card {
 
 }
+.home-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+}
 @media (width >= 1200px) {
-.bg-primary-medium p, .bg-accent-light p {
-  max-width: 450px;
-  margin-right: 2rem;
+// .bg-primary-medium p, .bg-accent-light p {
+//   max-width: 450px;
+//   margin-right: 2rem;
+// }
+
+// .bg-seccondary p, .bg-tertiary-light p {
+//   max-width: 250px;
+//   margin-right: 2rem;
+// }
+} 
+.home-card {
+  position: relative;
+
+  &__arrow {
+    position: absolute;
+    bottom: 16px;
+    right: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 0;
+    transform: translate(-4px, 4px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+ .bg-primary-medium & &__arrow { color: map-get($theme-colors, 'primary'); }
+  .bg-secondary-light & &__arrow { color: map-get($theme-colors, 'secondary'); }
+  &:hover &__arrow {
+    opacity: 0.6;
+    transform: translate(0, 0);
+  }
+}
+.bg-primary-medium .home-card__arrow {
+  color: map-get($theme-colors, 'primary');
 }
 
-.bg-seccondary p, .bg-tertiary-light p {
-  max-width: 250px;
-  margin-right: 2rem;
+.bg-secondary .home-card__arrow {
+  color: map-get($theme-colors, 'secondary');
 }
-} 
+
+.bg-tertiary-light .home-card__arrow {
+  color: map-get($theme-colors, 'tertiary');
+}
+
+.bg-accent-light .home-card__arrow {
+  color: map-get($theme-colors, 'accent');
+}
