@@ -1,18 +1,20 @@
 
-$font-caveat: "Caveat", cursive;
 $font-karla:  "Karla", sans-serif;
 $font-teachers: 'Teachers', sans-serif;
-$font-poppins: "Poppins", sans-serif;
+$font-mono: "Space Mono", monospace;
 
-.font-caveat {
-    font-family: $font-caveat;
+
+.font-mono {
+    font-family: $font-mono;
+    font-weight: 400;
 }
 h1, h3 {
-  // font-family: $font-caveat;
+ font-family: $font-karla;
   font-weight: 600;
 }
 
 h2 {
+  font-family: $font-karla;
   font-weight: 400 !important;
   letter-spacing: 1px;
 }

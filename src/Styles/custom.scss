@@ -16,7 +16,8 @@
   
 
 $theme-colors: (
-  'primary': #623696,
+  'primary': #9A76CF,
+  'primary-light-mode': #623696,
   'primary-light': rgb(218, 205, 255),
   'primary-medium': rgb(169, 148, 253),
   'secondary': #cd49c2,
@@ -49,7 +50,7 @@ body {
 /* Para pantallas de portátil en adelante */
 @media (width >= 1200px) {
   .container-fluid {
-    max-width: 1250px !important; 
+    max-width: 1200px !important; 
     margin-left: auto;
     margin-right: auto;
   }

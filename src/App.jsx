@@ -15,19 +15,20 @@ import Contact from "./pages/Contact";
 import Front from "./pages/Front";
 import NutriBite from "./pages/projectsUx/nutriBite";
 import Footer from "./Footer";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   const { pathname } = useLocation();
   const isHome = pathname === "/";
   return (
-           <div className="landing m-0 min-vh-100 d-flex flex-column bg-primary-light">
+           <div className="landing m-0 min-vh-100 d-flex flex-column">
             <div className="d-flex flex-column justify-content-between flex-grow-1">
        <MenuRRSS />
        <main>
         <Container fluid>
       <Routes>
                 {/* HOME */}
-          <Route path="/" element={<Hero />} />
+          {/* <Route path="/" element={<Bento />} /> */}
       </Routes>
       {isHome ? <Bento /> : <MenuSkills />}
       <Outlet />
@@ -35,8 +36,9 @@ function App() {
       <Routes>
         {/* PÁGINAS INTERNAS */}
         <Route path="/ux-ui" element={<Ux />} />
-        <Route path="/illustrations" element={<Illustrations />} />
         <Route path="/front-end" element={<Front />} />
+        <Route path="/illustrations" element={<Illustrations />} />
+        <Route path="/sobre-mi" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
 
         {/* PROYECTOS UX/UI */}

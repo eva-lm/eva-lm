@@ -3,20 +3,32 @@
 
 
   .landing {
-    background-image: url('../img/bg-gradient.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+    // background-image: url('../img/bg-gradient.png');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover; 
+
+
+    //     background: linear-gradient(
+    //     135deg,
+    //     #120E1A 0%,
+    //     #1A1325 45%,
+    //     #241738 100%
+    // );
+    // color: #F5F5F5;
+
+
     &__bg-dibujo {
         background-image: url('../img/bg-dibu2.svg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; 
-        border: 2px solid #FFFFFF;
-        border-radius: 6px;
+        //border: 2px solid #d94c4c;
+        border-radius: 42px;
+       background-color: #ffffff78;
     }
   }
-  
+
 //   @media all and (min-width: 1024px) {
 //    .landing {
 //     &__bg-dibujo {

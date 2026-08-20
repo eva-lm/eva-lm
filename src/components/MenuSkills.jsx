@@ -4,23 +4,29 @@ const MenuSkills = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="home-grid">
-      <div className="grid-item bg-primary" onClick={() => navigate("/ux-ui")}>
-        UX / UI barrita
-      </div>
+    <nav className="">
+      <ul>
+      <li className="bg-primary-medium" onClick={() => navigate("/ux-ui")}>
+        UX / UI 
+      </li>
 
-      <div className="grid-item bg-secondary" onClick={() => navigate("/front-end")}>
-        Front-end barrita
-      </div>
+      <li className="bg-secondary" onClick={() => navigate("/front-end")}>
+        Front-end
+      </li>
 
-      <div className="grid-item bg-info" onClick={() => navigate("/illustrations")}>
-        Illustrations barrita
-      </div>
+      <li className="bg-tertiary-light" onClick={() => navigate("/illustrations")}>
+        Illustrations 
+      </li>
 
-      <div className="grid-item bg-warning" onClick={() => navigate("/contact")}>
-        Contact barrita
-      </div>
-    </div>
+      <li className="bg-tertiary-light" onClick={() => navigate("/sobre-mi")}>
+        Sobre mí
+      </li>
+
+      <li className="bg-accent-light" onClick={() => navigate("/contact")}>
+        Contacto
+      </li>
+            </ul>
+    </nav>
   );
 };
 

@@ -17,7 +17,7 @@ const MenuRRSS = () => {
         <ul className="rrss mt-2 mt-md-0">
           <li>
             <a
-              class="fs-3 text-primary"
+              class="fs-3 text-primary-light"
               href="https://github.com/eva-lm"
               target="_blank"
               rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const MenuRRSS = () => {
           </li>
           <li>
             <a
-              class="fs-3 mx-3 text-primary"
+              class="fs-3 mx-3 text-primary-light"
               href="https://www.linkedin.com/in/eva-lm/"
               target="_blank"
               rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const MenuRRSS = () => {
           </li>
                     <li>
             <a
-              class="fs-3 text-primary"
+              class="fs-3 text-primary-light"
               href="https://www.instagram.com/eva-lm9/"
               target="_blank"
               rel="noopener noreferrer"
