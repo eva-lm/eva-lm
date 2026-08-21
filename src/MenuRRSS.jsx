@@ -6,9 +6,9 @@ import "./Styles/Layout/MenuRRSS.scss";
 
 const MenuRRSS = () => {
   return (
-    <header class="menu-top mb-4 border-bottom-white">
+    <header class="menu-top mb-4">
       <Container fluid>
-      <nav className="d-flex flex-column flex-md-row align-items-center justify-content-between py-2">
+      <nav className="d-flex flex-column flex-md-row align-items-center justify-content-between py-2 border-bottom-primary-light">
         <Link to="/">
           <div>
             <img src={logo} alt="logo web" height="45" />
@@ -17,7 +17,7 @@ const MenuRRSS = () => {
         <ul className="rrss mt-2 mt-md-0">
           <li>
             <a
-              class="fs-3 text-primary-light"
+              class="fs-3 text-black"
               href="https://github.com/eva-lm"
               target="_blank"
               rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const MenuRRSS = () => {
           </li>
           <li>
             <a
-              class="fs-3 mx-3 text-primary-light"
+              class="fs-3 mx-3 text-black"
               href="https://www.linkedin.com/in/eva-lm/"
               target="_blank"
               rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const MenuRRSS = () => {
           </li>
                     <li>
             <a
-              class="fs-3 text-primary-light"
+              class="fs-3 text-black"
               href="https://www.instagram.com/eva-lm9/"
               target="_blank"
               rel="noopener noreferrer"

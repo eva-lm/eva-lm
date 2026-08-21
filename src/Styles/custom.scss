@@ -17,16 +17,13 @@
 
 $theme-colors: (
   'primary': #9A76CF,
-  'primary-light-mode': #623696,
-  'primary-light': rgb(218, 205, 255),
-  'primary-medium': rgb(169, 148, 253),
-  'secondary': #cd49c2,
-  'secondary-light': rgb(250, 186, 234),
-  // 'tertiary': #C9B5FD,
+  'primary-light': #DED9FB,
+  'secondary': #CD49C2,
+  'secondary-light': #FFC1EA,
   'accent': #359184,
-  'accent-light': rgb(151, 247, 233),
-  'tertiary': #b4ac0a,
-  'tertiary-light': rgb(255, 251, 151),
+  'accent-light': #DCF8E7,
+  'tertiary': #B4AC0A,
+  'tertiary-light': #FCEED9,
   'black': #1A1A1A,
   'gray': #2e2a2a,
   'lightGray': #8d8282
@@ -43,8 +40,19 @@ body {
 .border-top-white {
     border-top: 1.3px solid #ffffff;
 }
-.border-bottom-white {
-    border-bottom: 1.3px solid #ffffff;
+.border-bottom-primary-light {
+    border-bottom: 1.3px solid map-get($theme-colors, 'primary-light');
+}
+.border-top-primary-light {
+    border-top: 1.3px solid map-get($theme-colors, 'primary-light');
+}
+
+.h-65 {
+  height: 65%;
+}
+
+.h-35 {
+  height: 35%;
 }
 
 /* Para pantallas de portátil en adelante */
