@@ -54,6 +54,27 @@ body {
 .h-35 {
   height: 35%;
 }
+@media (width >= 768px) {
+.h-md-65 {
+  height: 65%;
+}
+
+.h-md-35 {
+  height: 35%;
+}
+}
+
+
+@media (width >= 1200px) {
+.h-lg-65 {
+  height: 65%;
+}
+
+.h-lg-35 {
+  height: 35%;
+}
+} 
+
 
 /* Para pantallas de portátil en adelante */
 @media (width >= 1200px) {

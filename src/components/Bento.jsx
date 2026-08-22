@@ -40,7 +40,7 @@ const Bento = () => {
                       src={imgHeader}
                       class="img-header"
                       alt="dibujo de un post-it"
-                      width="280"
+                      width="230"
                     />
                   </div>
 
@@ -68,12 +68,12 @@ const Bento = () => {
             </div>
           </li>
         </Col>
-        <Col sm={6} md={8}>
-          <Row className="h-65">
-            <Col sm={12} className="">
+        <Col sm={12} md={8}>
+          <Row className="h-md-65 mt-2 mt-md-0">
+            <Col sm={12} className="container-word">
               <img
                 src={imgPortfolio}
-                class=""
+                class="container-word__img"
                 alt="palabra Porfolio"
                 height="140"
               />
@@ -135,8 +135,8 @@ const Bento = () => {
               </li>
             </Col>
           </Row>
-          <Row className="h-35">
-            <Col sm={12} md={6} className="mt-3">
+          <Row className="h-md-35">
+            <Col sm={12} md={6} className="mt-2">
               <li class="m-0 p-0 h-100">
                 <Link
                   to="/sobre-mi"
@@ -165,7 +165,7 @@ const Bento = () => {
               </li>
             </Col>
 
-            <Col sm={12} md={6} className="mt-3">
+            <Col sm={12} md={6} className="mt-2">
               <li class="m-0 p-0 h-100">
                 <Link
                   to="/front-end"

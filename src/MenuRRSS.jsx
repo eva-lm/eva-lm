@@ -8,7 +8,7 @@ const MenuRRSS = () => {
   return (
     <header class="menu-top mb-4">
       <Container fluid>
-      <nav className="d-flex flex-column flex-md-row align-items-center justify-content-between py-2 border-bottom-primary-light">
+      <nav className="d-flex align-items-center justify-content-between py-2 border-bottom-primary-light">
         <Link to="/">
           <div>
             <img src={logo} alt="logo web" height="45" />
