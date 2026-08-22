@@ -168,7 +168,7 @@ const Bento = () => {
             <Col sm={12} md={6} className="mt-2">
               <li class="m-0 p-0 h-100">
                 <Link
-                  to="/front-end"
+                  to="/contact"
                   className="home-card d-flex flex-column flex-lg-row align-items-center text-decoration-none bg-accent-light p-4 h-100"
                 >
                   <div className="me-lg-3">
