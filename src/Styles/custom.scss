@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@import "variables.scss";
 /* make the customizations */
 
 // $theme-colors: (
@@ -13,38 +13,39 @@
 //   'gray': #2e2a2a,
 //   'lightGray': #8d8282
 // );
-  
 
 $theme-colors: (
-  'primary': #9A76CF,
-  'primary-light': #DED9FB,
-  'secondary': #CD49C2,
-  'secondary-light': #FFC1EA,
-  'accent': #359184,
-  'accent-light': #DCF8E7,
-  'tertiary': #B4AC0A,
-  'tertiary-light': #FCEED9,
-  'black': #1A1A1A,
-  'gray': #2e2a2a,
-  'lightGray': #8d8282
+  "primary": #9a76cf,
+  "primary-light": #ded9fb,
+  "secondary": #cd49c2,
+  "secondary-light": #ffc1ea,
+  "accent": #359184,
+  "accent-light": #dcf8e7,
+  "tertiary": #b4ac0a,
+  "tertiary-light": #fceed9,
+  "black": #1a1a1a,
+  "gray": #2e2a2a,
+  "lightGray": #8d8282,
+  "moveon-color": #c5ed68,
+  "moveon-color-light": #f6fbdf,
+  "moveon-color-dark": #196402,
 );
-  
 
 .btn-primary {
-  color: #ffffff !important;  
+  color: #ffffff !important;
 }
 body {
-  color: #1A1A1A !important;
+  color: #1a1a1a !important;
 }
 
 .border-top-white {
-    border-top: 1.3px solid #ffffff;
+  border-top: 1.3px solid #ffffff;
 }
 .border-bottom-primary-light {
-    border-bottom: 1.3px solid map-get($theme-colors, 'primary-light');
+  border-bottom: 1.3px solid map-get($theme-colors, "primary-light");
 }
 .border-top-primary-light {
-    border-top: 1.3px solid map-get($theme-colors, 'primary-light');
+  border-top: 1.3px solid map-get($theme-colors, "primary-light");
 }
 
 .h-65 {
@@ -55,31 +56,29 @@ body {
   height: 35%;
 }
 @media (width >= 768px) {
-.h-md-65 {
-  height: 65%;
-}
+  .h-md-65 {
+    height: 65%;
+  }
 
-.h-md-35 {
-  height: 35%;
+  .h-md-35 {
+    height: 35%;
+  }
 }
-}
-
 
 @media (width >= 1200px) {
-.h-lg-65 {
-  height: 65%;
-}
+  .h-lg-65 {
+    height: 65%;
+  }
 
-.h-lg-35 {
-  height: 35%;
+  .h-lg-35 {
+    height: 35%;
+  }
 }
-} 
-
 
 /* Para pantallas de portátil en adelante */
 @media (width >= 1200px) {
   .container-fluid {
-    max-width: 1200px !important; 
+    max-width: 1200px !important;
     margin-left: auto;
     margin-right: auto;
   }

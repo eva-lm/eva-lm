@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
+import { Container } from "react-bootstrap";
+
 import "../Styles/Layout/MenuSkills.scss";
 
 
@@ -11,7 +13,7 @@ const tabActiva = pathname.replace("/", "");
 console.log("pathname:", pathname, "tabActiva:", tabActiva);
 
   return (
-    <div>
+    <Container fluid>
       <nav>
         <ul className="nav">
           <li
@@ -48,7 +50,7 @@ console.log("pathname:", pathname, "tabActiva:", tabActiva);
           </li>
         </ul>
       </nav>
-    </div>
+   </Container>
   );
 };
 

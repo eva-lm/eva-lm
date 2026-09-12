@@ -1,4 +1,5 @@
-import "../Styles/Layout/Bento.scss";
+import { useRef, useEffect } from "react";
+import { Container } from "react-bootstrap";
 import Lottie from "lottie-react";
 import bombillaAnimation from "../animation/bombilla.json";
 import { useState } from "react";
@@ -14,9 +15,9 @@ import imgHeader from "../img/img-header.svg";
 import imgPortfolio from "../img/portfolio.svg";
 
 import imgHeader2 from "../img/laptop.svg";
-
 import lineAnimation from "../animation/line.json";
-import { useRef, useEffect } from "react";
+
+import "../Styles/Layout/Bento.scss";
 
 const Bento = () => {
   const [hoverUx, setHoverUx] = useState(false);
@@ -28,6 +29,8 @@ const Bento = () => {
     }
   }, []);
   return (
+    
+      <Container fluid className="d-flex align-items-center justify-content-center flex-grow-1">
     <nav aria-label="Navegación principal en bloques">
       <ul class="row">
         <Col sm={12} md={4}>
@@ -197,6 +200,7 @@ const Bento = () => {
         </Col>
       </ul>
     </nav>
+   </Container>
   );
 };
 
