@@ -17,21 +17,20 @@
     transition:
       transform 0.2s ease,
       background-color 0.2s ease;
+    color: map-get($theme-colors, "moveon-color-dark");
+    font-weight: 500;
   }
-  .enlaces-rapidos {
-    a {
-      &:hover {
-        color: darken(
-          map-get($theme-colors, "moveon-color-dark"),
-          10%
-        ) !important;
-      }
+  a {
+    &:hover {
+      color: darken(
+        map-get($theme-colors, "moveon-color-dark"),
+        10%
+      ) !important;
     }
   }
 }
 .design-thinking-container {
   ul {
-    font-weight: 700;
     > li {
       background-color: #f3f1f7;
       border-radius: 22px;
@@ -44,6 +43,7 @@
             map-get($theme-colors, "moveon-color-dark"),
             10%
           );
+          color: #ffffff !important;
         }
       }
 
@@ -63,6 +63,22 @@
       }
     }
   }
+}
+
+.vision-general-container {
+  background: linear-gradient(90deg, #f6fbdf 0%, #ffffff 100%);
+  border-radius: 28px;
+}
+
+.text-title-decoration {
+  top: 50px;
+  left: 0px;
+  height: 10px;
+  width: 90px;
+  background-color: map-get($theme-colors, "moveon-color");
+}
+.border-bottom-moveon-color {
+  border-bottom: solid 0.5px map-get($theme-colors, "moveon-color");
 }
 
 @media (width >= 768px) {
