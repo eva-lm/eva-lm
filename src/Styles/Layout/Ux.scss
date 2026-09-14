@@ -80,7 +80,14 @@
 .border-bottom-moveon-color {
   border-bottom: solid 0.5px map-get($theme-colors, "moveon-color");
 }
-
+#empatizar {
+  img {
+    min-width: 350px;
+  }
+}
+.border-left {
+  border-left: solid 5px map-get($theme-colors, "moveon-color-dark");
+}
 @media (width >= 768px) {
   .project-img {
     height: 150px;
