@@ -70,6 +70,11 @@
   border-radius: 28px;
 }
 
+.gray-container {
+  background: linear-gradient(90deg, #f5f4fd 0%, #efeef1 100%);
+  border-radius: 28px;
+}
+
 .text-title-decoration {
   top: 50px;
   left: 0px;
@@ -85,9 +90,16 @@
     min-width: 350px;
   }
 }
+.list-square li {
+  list-style-type: square !important;
+}
+.list-square li::marker {
+  color: map-get($theme-colors, "moveon-color-dark");
+}
 .border-left {
   border-left: solid 5px map-get($theme-colors, "moveon-color-dark");
 }
+
 @media (width >= 768px) {
   .project-img {
     height: 150px;

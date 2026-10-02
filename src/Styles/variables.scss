@@ -1,15 +1,18 @@
-
-$font-karla:  "Karla", sans-serif;
-$font-teachers: 'Teachers', sans-serif;
+$font-karla: "Karla", sans-serif;
+$font-teachers: "Teachers", sans-serif;
 $font-mono: "Space Mono", monospace;
 
+// :root {
+//   -bs-body-font-size: 2rem !important;
+// }
 
 .font-mono {
-    font-family: $font-mono;
-    font-weight: 400;
+  font-family: $font-mono;
+  font-weight: 400;
 }
-h1, h3 {
- font-family: $font-karla;
+h1,
+h3 {
+  font-family: $font-karla;
   font-weight: 600;
 }
 
@@ -20,17 +23,16 @@ h2 {
 }
 
 body {
-  font-family: $font-teachers!important;
+  font-family: $font-teachers !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  //color: #1A1A1A !important;
 }
 ul li {
   list-style: none;
 }
 
 ul {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 // .nav,
