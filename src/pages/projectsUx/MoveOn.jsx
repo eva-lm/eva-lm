@@ -83,7 +83,7 @@ const MoveOn = () => {
                   <h2 className="fs-4 text-center">ENLACES RÁPIDOS</h2>
                   <div className="mt-3 enlaces-rapidos text-center">
                     <a
-                      href="https://ejemplo.com"
+                      href="https://www.figma.com/board/GASLjIDLTc3OiyKpmYXFAM/Flujos-de-navegaci%C3%B3n?node-id=2029-525&t=tDx3NXkhLaQgljhH-1"
                       target="_blank"
                       rel="noopener noreferrer"
                       variant="outline-moveon-color-dark"
@@ -93,7 +93,7 @@ const MoveOn = () => {
                       DE NAV.
                     </a>
                     <a
-                      href="https://ejemplo.com"
+                      href="https://www.figma.com/design/tbWp51xWwgLV28UUm3tySj/Wireframes?node-id=0-1&t=PpfFYJBnY9Os4FUp-1"
                       target="_blank"
                       rel="noopener noreferrer"
                       variant="outline-moveon-color-dark"
@@ -102,15 +102,25 @@ const MoveOn = () => {
                       <BsBoxArrowUpRight size={16} aria-hidden="true" />
                       WIREFRAMES
                     </a>
+                      <a
+                      href="https://www.figma.com/design/UD5Y5qB0r0e4ydBDwGj95S/Prototipo--Hi-Fi-?node-id=0-1&t=uMgUSAHyCT24w2Rh-1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      variant="outline-moveon-color-dark"
+                      className="d-inline-flex align-items-center gap-2 fs-6 fw-bold text-moveon-color-dark me-4"
+                    >
+                      <BsBoxArrowUpRight size={16} aria-hidden="true" />
+                      PROTOTIPO HI-FI
+                    </a>
                     <a
-                      href="https://ejemplo.com"
+                      href="https://www.figma.com/proto/UD5Y5qB0r0e4ydBDwGj95S/Prototipo--Hi-Fi-?node-id=2077-1344&p=f&viewport=1800%2C-403%2C0.19&t=CugwJjcKbUEm6XJm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2077%3A1344&page-id=0%3A1&desktop-link-click-timestamp=1793898347646&desktop-ul-exp-bucket=po&desktop-ul-pref-conflict=1"
                       target="_blank"
                       rel="noopener noreferrer"
                       variant="outline-moveon-color-dark"
                       className="d-inline-flex align-items-center gap-2 fs-6 fw-bold text-moveon-color-dark"
                     >
                       <BsBoxArrowUpRight size={16} aria-hidden="true" />
-                      PROTIPO FINAL
+                      PROTOTIPO INTERACTIVO
                     </a>
                   </div>
                 </Col>
@@ -127,20 +137,20 @@ const MoveOn = () => {
                     <ul className="d-flex flex-wrap justify-content-center gap-3">
                       <li className="d-flex flex-column align-items-center p-3">
                         <a
-                          href="#"
+                          href="#empatizar"
                           className="text-moveon-color-dark text-uppercase px-3 py-1 fs-5 text-white text-decoration-none"
                         >
                           1- Empatizar
                         </a>
                         <ul className="text-center mt-2">
                           <li>
-                            <a href="#">1.1 Análisis Competitivo</a>
+                            <a href="#analisis-competitivo">1.1 Análisis Competitivo</a>
                           </li>
                           <li>
-                            <a href="#">1.2 Cuestionarios de Usuario</a>
+                            <a href="#cuestionarios-usuario">1.2 Cuestionarios de Usuario</a>
                           </li>
                           <li>
-                            <a href="#">1.3 User Persona</a>
+                            <a href="#user-persona">1.3 User Persona</a>
                           </li>
                         </ul>
                       </li>
@@ -304,13 +314,13 @@ const MoveOn = () => {
                       </p>
                       <ul className="">
                         <li>
-                          <a href="#">1.1 Análisis Competitivo</a>
+                          <a href="#analisis-competitivo">1.1 Análisis Competitivo</a>
                         </li>
                         <li>
-                          <a href="#">1.2 Cuestionarios de Usuario</a>
+                          <a href="#cuestionarios-usuario">1.2 Cuestionarios de Usuario</a>
                         </li>
                         <li>
-                          <a href="#">1.3 User Persona</a>
+                          <a href="#user-persona">1.3 User Persona</a>
                         </li>
                       </ul>
                     </div>
@@ -320,7 +330,7 @@ const MoveOn = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 mb-3">1.1- Análisis Competitivo</h3>
+                  <h3 className="fs-4 mb-3" id="analisis-competitivo">1.1- Análisis Competitivo</h3>
                   <p>
                     Para comenzar, se elabora un estudio previo de otras marcas
                     y se llevan a cabo técnicas de investigación para conocer
@@ -385,7 +395,7 @@ const MoveOn = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3">1.2- Cuestionarios de usuario</h3>
+                    <h3 className="fs-4 my-3" id="cuestionarios-usuario">1.2- Cuestionarios de usuario</h3>
                     <p>
                       Para comprender las necesidades de nuestros futuros
                       usuarios, sus motivaciones, frustraciones y hábitos,
@@ -573,7 +583,7 @@ const MoveOn = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3">1.2- User Persona</h3>
+                    <h3 className="fs-4 my-3" id="user-persona">1.2- User Persona</h3>
                     <p>
                       Los <b>dos User Persona</b> mostrados a continuación, han
                       sido construidos a partir de los datos obtenidos en la
