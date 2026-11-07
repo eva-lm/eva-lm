@@ -11,8 +11,8 @@ import Ux from "./pages/Ux";
 import Illustrations from "./pages/Illustrations";
 import Contact from "./pages/Contact";
 import Front from "./pages/Front";
-import NutriBite from "./pages/projectsUx/NutriBite";
-import MoveOn from "./pages/projectsUx/MoveOn";
+import NutriBite from "./pages/projectsUx/Nutribite";
+import MoveOn from "./pages/projectsUx/Moveon";
 import Footer from "./Footer";
 import AboutMe from "./pages/AboutMe";
 
