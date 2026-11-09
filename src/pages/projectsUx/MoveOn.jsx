@@ -17,7 +17,7 @@ import cardSorting3 from "../../img/ux-projects/moveon/card-sorting-3.jpg";
 
 import "../../Styles/Layout/Ux.scss";
 
-const MoveOn = () => {
+const Moveon = () => {
   return (
     <section className="mt-4 moveon">
       <Row>
@@ -917,4 +917,4 @@ El modelo mental de la Usuaria 3 está basado principalmente en el <b>uso práct
   );
 };
 
-export default MoveOn;
+export default Moveon;
