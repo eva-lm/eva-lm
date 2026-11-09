@@ -12,7 +12,7 @@ import imgCardContact from "../img/img-skills/contact.svg";
 
 import Button from "react-bootstrap/Button";
 import imgHeader from "../img/img-header.svg";
-import imgPortfolio from "../img/portfolio.svg";
+import imgPortfolio from "../img/Portfolio.svg";
 
 import imgHeader2 from "../img/laptop.svg";
 import lineAnimation from "../animation/line.json";
