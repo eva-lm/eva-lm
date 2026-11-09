@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const NutriBite = () => {
+const Nutribite = () => {
   return (
       <section className="ux" id="nutribite">
        <Container>
@@ -16,4 +16,4 @@ const NutriBite = () => {
       );
 };
 
-export default NutriBite;
+export default Nutribite;

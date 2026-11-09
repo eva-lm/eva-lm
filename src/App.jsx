@@ -11,7 +11,7 @@ import Ux from "./pages/Ux";
 import Illustrations from "./pages/Illustrations";
 import Contact from "./pages/Contact";
 import Front from "./pages/Front";
-import NutriBite from "./pages/projectsUx/Nutribite";
+import Nutribite from "./pages/projectsUx/Nutribite";
 import Moveon from "./pages/projectsUx/Moveon";
 import Footer from "./Footer";
 import AboutMe from "./pages/AboutMe";
@@ -45,7 +45,7 @@ function App() {
 
               {/* PROYECTOS UX/UI */}
               <Route path="/ux-ui/moveon" element={<Moveon />} />
-              <Route path="/ux-ui/nutribite" element={<NutriBite />} />
+              <Route path="/ux-ui/nutribite" element={<Nutribite />} />
             </Routes>
           </Container>
         </main>
