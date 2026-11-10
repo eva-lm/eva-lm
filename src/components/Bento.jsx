@@ -30,7 +30,7 @@ const Bento = () => {
   }, []);
   return (
     
-      <Container fluid className="d-flex align-items-center justify-content-center flex-grow-1">
+      <Container className="d-flex align-items-center justify-content-center flex-grow-1">
     <nav aria-label="Navegación principal en bloques">
       <ul class="row">
         <Col sm={12} md={4}>
@@ -78,7 +78,7 @@ const Bento = () => {
                 src={imgPortfolio}
                 class="container-word__img"
                 alt="palabra Porfolio"
-                height="140"
+                height="130"
               />
             </Col>
             <Col sm={12} md={6} className="mt-2">

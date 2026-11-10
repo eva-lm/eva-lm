@@ -34,7 +34,7 @@ function App() {
             {isHome && <Bento />}
             <Outlet />
 
-          <Container fluid>
+          <Container>
             <Routes>
               {/* PÁGINAS INTERNAS */}
               <Route path="/ux-ui" element={<Ux />} />

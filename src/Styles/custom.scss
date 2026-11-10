@@ -37,7 +37,9 @@ $theme-colors: (
 body {
   color: #1a1a1a !important;
 }
-
+p {
+  font-size: 1.1rem !important;
+}
 .border-top-white {
   border-top: 1.3px solid #ffffff;
 }

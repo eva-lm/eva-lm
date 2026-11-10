@@ -13,7 +13,7 @@ const tabActiva = pathname.replace("/", "");
 console.log("pathname:", pathname, "tabActiva:", tabActiva);
 
   return (
-    <Container fluid>
+    <Container>
       <nav>
         <ul className="nav">
           <li

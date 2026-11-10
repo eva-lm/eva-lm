@@ -909,6 +909,21 @@ El modelo mental de la Usuaria 3 está basado principalmente en el <b>uso práct
 
                   </Row>
                   </Row>
+                   <Row>
+                <Col>
+   <h3 className="fs-4 py-3">3.1- Sitemap</h3>
+                  <p>El diseño de este mapa del sitio es la representación visual del ejercicio de clasificación de tarjetas, teniendo en cuenta también las funcionalidades que piden el briefing, más las que se han considerado necesarias. Podemos ver de manera gráfica cuántas pantallas va a necesitar la aplicación y su jerarquía. </p>
+                  <Button  variant="primary"><a
+                      href="https://www.figma.com/board/GASLjIDLTc3OiyKpmYXFAM/Flujos-de-navegaci%C3%B3n?node-id=2029-525&t=tDx3NXkhLaQgljhH-1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      FLUJOS
+                      DE NAV.
+                    </a></Button>
+                  </Col>
+
+                  </Row>
                   </article>
           </div>
         </Col>
