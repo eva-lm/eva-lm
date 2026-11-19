@@ -89,8 +89,8 @@ const Moveon = () => {
                       variant="outline-moveon-color-dark"
                       className="d-inline-flex align-items-center gap-2 fs-6 fw-bold text-moveon-color-dark"
                     >
-                      <BsBoxArrowUpRight size={16} aria-hidden="true" /> FLUJOS
-                      DE NAV.
+                      FLUJOS DE NAV.{" "}
+                      <BsBoxArrowUpRight size={16} aria-hidden="true" />
                     </a>
                     <a
                       href="https://www.figma.com/design/tbWp51xWwgLV28UUm3tySj/Wireframes?node-id=0-1&t=PpfFYJBnY9Os4FUp-1"
@@ -99,18 +99,18 @@ const Moveon = () => {
                       variant="outline-moveon-color-dark"
                       className="d-inline-flex align-items-center gap-2 fs-6 fw-bold text-moveon-color-dark mx-4"
                     >
+                      WIREFRAMES{" "}
                       <BsBoxArrowUpRight size={16} aria-hidden="true" />
-                      WIREFRAMES
                     </a>
-                      <a
+                    <a
                       href="https://www.figma.com/design/UD5Y5qB0r0e4ydBDwGj95S/Prototipo--Hi-Fi-?node-id=0-1&t=uMgUSAHyCT24w2Rh-1"
                       target="_blank"
                       rel="noopener noreferrer"
                       variant="outline-moveon-color-dark"
                       className="d-inline-flex align-items-center gap-2 fs-6 fw-bold text-moveon-color-dark me-4"
                     >
+                      PROTOTIPO HI-FI{" "}
                       <BsBoxArrowUpRight size={16} aria-hidden="true" />
-                      PROTOTIPO HI-FI
                     </a>
                     <a
                       href="https://www.figma.com/proto/UD5Y5qB0r0e4ydBDwGj95S/Prototipo--Hi-Fi-?node-id=2077-1344&p=f&viewport=1800%2C-403%2C0.19&t=CugwJjcKbUEm6XJm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2077%3A1344&page-id=0%3A1&desktop-link-click-timestamp=1793898347646&desktop-ul-exp-bucket=po&desktop-ul-pref-conflict=1"
@@ -119,8 +119,8 @@ const Moveon = () => {
                       variant="outline-moveon-color-dark"
                       className="d-inline-flex align-items-center gap-2 fs-6 fw-bold text-moveon-color-dark"
                     >
+                      PROTOTIPO INTERACTIVO{" "}
                       <BsBoxArrowUpRight size={16} aria-hidden="true" />
-                      PROTOTIPO INTERACTIVO
                     </a>
                   </div>
                 </Col>
@@ -144,10 +144,14 @@ const Moveon = () => {
                         </a>
                         <ul className="text-center mt-2">
                           <li>
-                            <a href="#analisis-competitivo">1.1 Análisis Competitivo</a>
+                            <a href="#analisis-competitivo">
+                              1.1 Análisis Competitivo
+                            </a>
                           </li>
                           <li>
-                            <a href="#cuestionarios-usuario">1.2 Cuestionarios de Usuario</a>
+                            <a href="#cuestionarios-usuario">
+                              1.2 Cuestionarios de Usuario
+                            </a>
                           </li>
                           <li>
                             <a href="#user-persona">1.3 User Persona</a>
@@ -314,10 +318,14 @@ const Moveon = () => {
                       </p>
                       <ul className="">
                         <li>
-                          <a href="#analisis-competitivo">1.1 Análisis Competitivo</a>
+                          <a href="#analisis-competitivo">
+                            1.1 Análisis Competitivo
+                          </a>
                         </li>
                         <li>
-                          <a href="#cuestionarios-usuario">1.2 Cuestionarios de Usuario</a>
+                          <a href="#cuestionarios-usuario">
+                            1.2 Cuestionarios de Usuario
+                          </a>
                         </li>
                         <li>
                           <a href="#user-persona">1.3 User Persona</a>
@@ -330,7 +338,9 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 mb-3" id="analisis-competitivo">1.1- Análisis Competitivo</h3>
+                  <h3 className="fs-4 mb-3" id="analisis-competitivo">
+                    1.1- Análisis Competitivo
+                  </h3>
                   <p>
                     Para comenzar, se elabora un estudio previo de otras marcas
                     y se llevan a cabo técnicas de investigación para conocer
@@ -395,7 +405,9 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3" id="cuestionarios-usuario">1.2- Cuestionarios de usuario</h3>
+                    <h3 className="fs-4 my-3" id="cuestionarios-usuario">
+                      1.2- Cuestionarios de usuario
+                    </h3>
                     <p>
                       Para comprender las necesidades de nuestros futuros
                       usuarios, sus motivaciones, frustraciones y hábitos,
@@ -583,7 +595,9 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3" id="user-persona">1.2- User Persona</h3>
+                    <h3 className="fs-4 my-3" id="user-persona">
+                      1.2- User Persona
+                    </h3>
                     <p>
                       Los <b>dos User Persona</b> mostrados a continuación, han
                       sido construidos a partir de los datos obtenidos en la
@@ -676,9 +690,7 @@ const Moveon = () => {
                     </div>
 
                     <p className="fs-6 fw-light mt-3 w-75 text-center">
-                      <em>
-                        “Haga el plan, trabaje el plan.”
-                      </em>
+                      <em>“Haga el plan, trabaje el plan.”</em>
                     </p>
                     <div className="d-flex align-items-center gap-5 mt-3">
                       <p className="text-uppercase fs-5 fw-semibold">
@@ -694,7 +706,7 @@ const Moveon = () => {
                         <li>
                           <a href="#">2.3 Objetivos del proyecto</a>
                         </li>
-                                              <li>
+                        <li>
                           <a href="#">2.4 Hoja de ruta de características</a>
                         </li>
                       </ul>
@@ -705,91 +717,128 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                <p>Tras la fase de investigación, es momento de sintetizar todo lo investigado en un problema concreto y unos objetivos claros, antes de pasar a idear soluciones.</p>
+                  <p>
+                    Tras la fase de investigación, es momento de sintetizar todo
+                    lo investigado en un problema concreto y unos objetivos
+                    claros, antes de pasar a idear soluciones.
+                  </p>
                   <h3 className="fs-4 py-3">2.1- Definición del problema</h3>
-                  <p className="border-left ps-2">Los usuarios que compran ropa deportiva online necesitan una forma fiable, rápida y sencilla de saber en que el producto coincidirá con lo mostrado, porque la falta de información clara y ordenada son su principal fuente de frustración, devoluciones y desconfianza hacia la compra digital.</p>
+                  <p className="border-left ps-2">
+                    Los usuarios que compran ropa deportiva online necesitan una
+                    forma fiable, rápida y sencilla de saber en que el producto
+                    coincidirá con lo mostrado, porque la falta de información
+                    clara y ordenada son su principal fuente de frustración,
+                    devoluciones y desconfianza hacia la compra digital.
+                  </p>
                 </Col>
               </Row>
-               <Row>
+              <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3">
-                     2.2- ¿Cómo podríamos...?
-                    </h3>
-                    <p>A partir de la definición del problema, se plantean las siguientes<b>preguntas de oportunidad</b> , que servirán de puente hacia la fase de Idear:</p>
+                    <h3 className="fs-4 my-3">2.2- ¿Cómo podríamos...?</h3>
+                    <p>
+                      A partir de la definición del problema, se plantean las
+                      siguientes<b>preguntas de oportunidad</b> , que servirán
+                      de puente hacia la fase de Idear:
+                    </p>
                     <ul className="list-square ps-3">
-                      <li className="">¿Cómo podríamos reducir la incertidumbre en la elección de talla?</li>
-                      <li>Cómo podríamos comunicar de forma clara la composición y el ajuste real de la prenda?</li>
-                      <li>¿Cómo podríamos simplificar el proceso de compra sin perder información relevante para el usuario?</li>
-                      <li>¿Cómo podríamos ofrecer personalización sin resultar intrusivos ni pedir información excesiva?</li>
+                      <li className="">
+                        ¿Cómo podríamos reducir la incertidumbre en la elección
+                        de talla?
+                      </li>
+                      <li>
+                        Cómo podríamos comunicar de forma clara la composición y
+                        el ajuste real de la prenda?
+                      </li>
+                      <li>
+                        ¿Cómo podríamos simplificar el proceso de compra sin
+                        perder información relevante para el usuario?
+                      </li>
+                      <li>
+                        ¿Cómo podríamos ofrecer personalización sin resultar
+                        intrusivos ni pedir información excesiva?
+                      </li>
                     </ul>
-                    </div>
-                    </Col>
-                    </Row>
-                                <Row>
-                <Col>
-                  <div className="mt-3">
-                    <h3 className="fs-4 my-3">
-                     2.3- Objetivos del proyecto
-                    </h3>
-                  <div className="h-100 d-flex align-items-center justify-content-center">
-                    <img
-                      className="d-md-none"
-                      src={imgObjMobile}
-                      alt="objetivos del usuario, negocio y diseño"
-                      height="900"
-                    />
-                    <img
-                      className="d-none d-md-block"
-                      src={imgObj}
-                      alt="objetivos del usuario, negocio y diseño"
-                      height="400"
-                    />
                   </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <div className="mt-3">
+                    <h3 className="fs-4 my-3">2.3- Objetivos del proyecto</h3>
+                    <div className="h-100 d-flex align-items-center justify-content-center">
+                      <img
+                        className="d-md-none"
+                        src={imgObjMobile}
+                        alt="objetivos del usuario, negocio y diseño"
+                        height="900"
+                      />
+                      <img
+                        className="d-none d-md-block"
+                        src={imgObj}
+                        alt="objetivos del usuario, negocio y diseño"
+                        height="400"
+                      />
                     </div>
-                    </Col>
-                    </Row>
-                                                 <Row>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
                 <Col>
                   <div className="mt-3">
                     <h3 className="fs-4 my-3">
-                     2.4- Hoja de ruta de características
+                      2.4- Hoja de ruta de características
                     </h3>
-                    <p>Basándonos en los datos de la encuesta (pregunta 16, funcionalidades de interés) y en las oportunidades detectadas, se establece la siguiente priorización:</p>
-                    <p><b>Prioridad alta:</b></p>
+                    <p>
+                      Basándonos en los datos de la encuesta (pregunta 16,
+                      funcionalidades de interés) y en las oportunidades
+                      detectadas, se establece la siguiente priorización:
+                    </p>
+                    <p>
+                      <b>Prioridad alta:</b>
+                    </p>
                     <ul className="list-square ps-3">
                       <li>Guía de tallas inteligente</li>
                       <li>Disponibilidad en tienda</li>
-                      <li>Filtros claros de búsqueda (precio, talla, categoría)</li>
+                      <li>
+                        Filtros claros de búsqueda (precio, talla, categoría)
+                      </li>
                     </ul>
-                    <p><b>Prioridad media:</b></p>
+                    <p>
+                      <b>Prioridad media:</b>
+                    </p>
                     <ul className="list-square ps-3">
                       <li>Seguimiento de pedidos en tiempo real</li>
                       <li>Información detallada de composición y tejido</li>
                     </ul>
-                    <p><b>Prioridad baja / futuras iteraciones:</b></p>
+                    <p>
+                      <b>Prioridad baja / futuras iteraciones:</b>
+                    </p>
                     <ul className="list-square ps-3">
-                        <li>Recomendaciones personalizadas</li>
-                        <li>Integración con redes sociales (compartir looks)</li>
+                      <li>Recomendaciones personalizadas</li>
+                      <li>Integración con redes sociales (compartir looks)</li>
                     </ul>
-                    </div>
-                    </Col>
-                    </Row>
+                  </div>
+                </Col>
+              </Row>
             </article>
-                        <article id="idear">
+            <article id="idear">
               <Row className="mt-5">
                 <Col className="py-3">
                   <div className="d-flex flex-column align-items-center justify-content-center">
                     <div className="position-relative my-3">
                       <h2 className="fs-1 fw-light text-uppercase text-center">
-                       03. idear
+                        03. idear
                       </h2>
                       <div className="text-title-decoration position-absolute"></div>
                     </div>
 
                     <p className="fs-6 fw-light mt-3 w-75 text-center">
                       <em>
-                        “Un edificio necesita un plano de planta antes de que se construya. Eso es lo que considero que es esta fase del proyecto. Este paso construye una base sólida para el resto del proyecto para construir”.
+                        “Un edificio necesita un plano de planta antes de que se
+                        construya. Eso es lo que considero que es esta fase del
+                        proyecto. Este paso construye una base sólida para el
+                        resto del proyecto para construir”.
                       </em>
                     </p>
                     <div className="d-flex align-items-center gap-5 mt-3">
@@ -814,117 +863,290 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-   <h3 className="fs-4 py-3">3.1- Card sorting</h3>
-                  <p>Ahora que conocemos a nuestro público objetivo y el contexto del proyecto, es hora de definir la <b>arquitectura de información</b> que tendrá nuestra aplicación. Para ello, hay que organizar y estructurar las categorías, para poder concretar el sistema de navegación. Esto nos sirve para definir qué caminos recorrerán nuestros usuarios para encontrar el producto o sección que busquen y así lograr diseñar la mejor experiencia posible. </p>
-                  <p>Para esta fase se realiza la técnica de clasificación de tarjetas para <b>organizar contenidos</b> según cómo los usuarios los entienden mentalmente. Esto nos permite conocer cómo nuestros usuarios agruparían las categorías de la aplicación y analizar cómo relacionan conceptos, comprender cuál es su modelo mental y cuál es su percepción, de tal manera que podamos estructurar la información de la manera más óptima e intuitiva posible. </p>
-                  <p>Para este experimento se ha seleccionado a 3 participantes (todos ellos han participado en la fase de definición del público objetivo) basándonos en el card <b>sorting abierto</b>, donde no existen categorías predefinidas y son los usuarios los que agrupan las tarjetas (en este caso 30, con el contenido de diferentes productos) en las categorías que ellos creen adecuadas, dándoles el nombre que ellos vean conveniente. </p>
-                  <p>Esto nos ayudará a entender cual es la forma más adecuada de organizar la información, estructurar menús de navegación y mapas de contenidos, lo que nos permite diseñar el menú principal, filtros y navegación. También nos sirve para definir la terminología a usar, de tal manera que a los usuarios les resulte familiar. El objetivo es que usemos etiquetas, títulos, iconos, etc acordes a una clasificación intuitiva, ya que una correcta <b>arquitectura de la información</b> es clave para el éxito de nuestra aplicación.</p>
-                  </Col>
+                  <h3 className="fs-4 py-3">3.1- Card sorting</h3>
+                  <p>
+                    Ahora que conocemos a nuestro público objetivo y el contexto
+                    del proyecto, es hora de definir la{" "}
+                    <b>arquitectura de información</b> que tendrá nuestra
+                    aplicación. Para ello, hay que organizar y estructurar las
+                    categorías, para poder concretar el sistema de navegación.
+                    Esto nos sirve para definir qué caminos recorrerán nuestros
+                    usuarios para encontrar el producto o sección que busquen y
+                    así lograr diseñar la mejor experiencia posible. 
+                  </p>
+                  <p>
+                    Para esta fase se realiza la técnica de clasificación de
+                    tarjetas para <b>organizar contenidos</b> según cómo los
+                    usuarios los entienden mentalmente. Esto nos permite conocer
+                    cómo nuestros usuarios agruparían las categorías de la
+                    aplicación y analizar cómo relacionan conceptos, comprender
+                    cuál es su modelo mental y cuál es su percepción, de tal
+                    manera que podamos estructurar la información de la manera
+                    más óptima e intuitiva posible.{" "}
+                  </p>
+                  <p>
+                    Para este experimento se ha seleccionado a 3 participantes
+                    (todos ellos han participado en la fase de definición del
+                    público objetivo) basándonos en el card{" "}
+                    <b>sorting abierto</b>, donde no existen categorías
+                    predefinidas y son los usuarios los que agrupan las tarjetas
+                    (en este caso 30, con el contenido de diferentes productos)
+                    en las categorías que ellos creen adecuadas, dándoles el
+                    nombre que ellos vean conveniente.{" "}
+                  </p>
+                  <p>
+                    Esto nos ayudará a entender cual es la forma más adecuada de
+                    organizar la información, estructurar menús de navegación y
+                    mapas de contenidos, lo que nos permite diseñar el menú
+                    principal, filtros y navegación. También nos sirve para
+                    definir la terminología a usar, de tal manera que a los
+                    usuarios les resulte familiar. El objetivo es que usemos
+                    etiquetas, títulos, iconos, etc acordes a una clasificación
+                    intuitiva, ya que una correcta{" "}
+                    <b>arquitectura de la información</b> es clave para el éxito
+                    de nuestra aplicación.
+                  </p>
+                </Col>
 
-                  <Row>
+                <Row>
                   <Col>
-                  <ul>
-                    <li class="mt-3 d-md-flex gap-3 gray-container p-4">
-                      <div>
-                      <p><span className="fs-5 text-gray">Usuario 1:</span><br></br>
-                     Hombre de 36 años, comprador habitual de ropa deportiva como estilo de vestir y deportista ocasional. </p>
-                      <p><b>Organización y etiquetado:
-</b><br></br>
-El usuario comenta que está pensando en la organización como si se tratara de su <b>propio armario</b>, lo que indica que su modelo mental está basado en la clasificación tradicional de prendas de vestir.</p>
-<p><b>Recogida de datos:</b><br></br>
-Este comportamiento sugiere que los usuarios pueden entender mejor la navegación de la aplicación si se estructura por categorías de producto en lugar de por tipo de deporte. Otro aspecto a tener en cuenta es en la creación de la categoría “ropa interior”, donde ha incluido sujetadores deportivos, calcetines, tops y mallas térmicas, lo que muestra una agrupación basada en funcionalidad y uso. Se observa que el usuario ha optado por una organización basada en <b>categorías simples y fácilmente reconocibles</b>, evitando clasificaciones complejas o jerárquicas.
-Además, no ha creado categorías relacionadas con deportes específicos, para este usuario el tipo de prenda tiene más relevancia que la actividad deportiva, esto puede ser debido a que usa la ropa deportiva como estilo de vestir más que para hacer deporte.
-</p>
-</div>
-                  <div className="h-100 d-flex align-items-center justify-content-center">
-                    <img
-                      className="d-md-none"
-                      src={cardSorting1}
-                      alt="resultado experimento de etiquetado usuario 1"
-                      width="350"
-                    />
-                    <img
-                      className="d-none d-md-block"
-                      src={cardSorting1}
-                       alt="resultado experimento de etiquetado usuario 1"
-                      width="600"
-                    />
-                  </div>
+                    <ul>
+                      <li class="mt-3 d-md-flex gap-3 gray-container p-4">
+                        <div>
+                          <p>
+                            <span className="fs-5 text-gray">Usuario 1:</span>
+                            <br></br>
+                            Hombre de 36 años, comprador habitual de ropa
+                            deportiva como estilo de vestir y deportista
+                            ocasional.{" "}
+                          </p>
+                          <p>
+                            <b>Organización y etiquetado:</b>
+                            <br></br>
+                            El usuario comenta que está pensando en la
+                            organización como si se tratara de su{" "}
+                            <b>propio armario</b>, lo que indica que su modelo
+                            mental está basado en la clasificación tradicional
+                            de prendas de vestir.
+                          </p>
+                          <p>
+                            <b>Recogida de datos:</b>
+                            <br></br>
+                            Este comportamiento sugiere que los usuarios pueden
+                            entender mejor la navegación de la aplicación si se
+                            estructura por categorías de producto en lugar de
+                            por tipo de deporte. Otro aspecto a tener en cuenta
+                            es en la creación de la categoría “ropa interior”,
+                            donde ha incluido sujetadores deportivos,
+                            calcetines, tops y mallas térmicas, lo que muestra
+                            una agrupación basada en funcionalidad y uso. Se
+                            observa que el usuario ha optado por una
+                            organización basada en{" "}
+                            <b>categorías simples y fácilmente reconocibles</b>,
+                            evitando clasificaciones complejas o jerárquicas.
+                            Además, no ha creado categorías relacionadas con
+                            deportes específicos, para este usuario el tipo de
+                            prenda tiene más relevancia que la actividad
+                            deportiva, esto puede ser debido a que usa la ropa
+                            deportiva como estilo de vestir más que para hacer
+                            deporte.
+                          </p>
+                        </div>
+                        <div className="h-100 d-flex align-items-center justify-content-center">
+                          <img
+                            className="d-md-none"
+                            src={cardSorting1}
+                            alt="resultado experimento de etiquetado usuario 1"
+                            width="350"
+                          />
+                          <img
+                            className="d-none d-md-block"
+                            src={cardSorting1}
+                            alt="resultado experimento de etiquetado usuario 1"
+                            width="600"
+                          />
+                        </div>
                       </li>
-                                          <li class="mt-3 d-md-flex gap-3 gray-container p-4">
-                      <div>
-                      <p><span className="fs-5 text-gray">Usuario 2:</span><br></br>
-                      Hombre de 40 años, comprador ocasional de ropa deportiva (una compra cada 2-3 meses aproximadamente) que realiza deporte de manera habitual, principalmente entrenamiento muscular y senderismo. </p>
-                      <p><b>Organización y etiquetado:
-</b><br></br>
-Este usuario adoptó un criterio diferente al del participante anterior, agrupando los productos principalmente por tipo de <b>actividad deportiva y contexto de uso</b>, relacionando cada prenda por su especialidad y para su uso específico. Nos comenta que en algunos deportes hay prendas y accesorios repetidos porque cree que cada uno es óptimo y usado para dicho fin.</p>
-<p><b>Recogida de datos:</b><br></br>
-Muestra un modelo mental claramente basado en la actividad deportiva como principal criterio, también ha añadido una categoría “ropa de verano”, esto es algo relevante ya que sugiere que algunos usuarios pueden pensar en la ropa deportiva en función del clima o temporada.</p>
-</div>
-                  <div className="h-100 d-flex align-items-center justify-content-center">
-                    <img
-                      className="d-md-none"
-                      src={cardSorting2}
-                      alt="resultado experimento de etiquetado usuario 1"
-                      width="350"
-                    />
-                    <img
-                      className="d-none d-md-block"
-                      src={cardSorting2}
-                       alt="resultado experimento de etiquetado usuario 1"
-                      width="600"
-                    />
-                  </div>
+                      <li class="mt-3 d-md-flex gap-3 gray-container p-4">
+                        <div>
+                          <p>
+                            <span className="fs-5 text-gray">Usuario 2:</span>
+                            <br></br>
+                            Hombre de 40 años, comprador ocasional de ropa
+                            deportiva (una compra cada 2-3 meses
+                            aproximadamente) que realiza deporte de manera
+                            habitual, principalmente entrenamiento muscular y
+                            senderismo.{" "}
+                          </p>
+                          <p>
+                            <b>Organización y etiquetado:</b>
+                            <br></br>
+                            Este usuario adoptó un criterio diferente al del
+                            participante anterior, agrupando los productos
+                            principalmente por tipo de{" "}
+                            <b>actividad deportiva y contexto de uso</b>,
+                            relacionando cada prenda por su especialidad y para
+                            su uso específico. Nos comenta que en algunos
+                            deportes hay prendas y accesorios repetidos porque
+                            cree que cada uno es óptimo y usado para dicho fin.
+                          </p>
+                          <p>
+                            <b>Recogida de datos:</b>
+                            <br></br>
+                            Muestra un modelo mental claramente basado en la
+                            actividad deportiva como principal criterio, también
+                            ha añadido una categoría “ropa de verano”, esto es
+                            algo relevante ya que sugiere que algunos usuarios
+                            pueden pensar en la ropa deportiva en función del
+                            clima o temporada.
+                          </p>
+                        </div>
+                        <div className="h-100 d-flex align-items-center justify-content-center">
+                          <img
+                            className="d-md-none"
+                            src={cardSorting2}
+                            alt="resultado experimento de etiquetado usuario 1"
+                            width="350"
+                          />
+                          <img
+                            className="d-none d-md-block"
+                            src={cardSorting2}
+                            alt="resultado experimento de etiquetado usuario 1"
+                            width="600"
+                          />
+                        </div>
                       </li>
-                       <li class="mt-3 d-md-flex gap-3 gray-container p-4">
-                      <div>
-                      <p><span className="fs-5 text-gray">Usuaria 3:</span><br></br>
-                      Mujer de 58 años que compra ropa deportiva de forma ocasional. Utiliza este tipo de ropa principalmente como vestimenta diaria, aunque también realiza actividades de mantenimiento como pilates y aquagym.
- </p>
-                      <p><b>Organización y etiquetado:
-</b><br></br>
-La usuaria mostró un enfoque más práctico y sencillo, agrupando los productos en categorías más amplias y fácilmente reconocibles, creando categorías sencillas pero relacionadas con su experiencia personal. a Nos comenta que organiza este tipo de ropa en función de sus actividades y en su día a día, lo que refuerza la idea de que hay que tener en cuenta los perfiles que usan la ropa deportiva como lifestyle.
-.</p>
-<p><b>Recogida de datos:</b><br></br>
-El modelo mental de la Usuaria 3 está basado principalmente en el <b>uso práctico y cotidiano</b> de la ropa deportiva. Se basa en una clasificación menos detallada y más funcional, prefiriendo una estructura más simple y fácilmente reconocible.
-</p>
-</div>
-                  <div className="h-100 d-flex align-items-center justify-content-center">
-                    <img
-                      className="d-md-none"
-                      src={cardSorting3}
-                      alt="resultado experimento de etiquetado usuario 1"
-                      width="350"
-                    />
-                    <img
-                      className="d-none d-md-block"
-                      src={cardSorting3}
-                       alt="resultado experimento de etiquetado usuario 1"
-                      width="600"
-                    />
-                  </div>
+                      <li class="mt-3 d-md-flex gap-3 gray-container p-4">
+                        <div>
+                          <p>
+                            <span className="fs-5 text-gray">Usuaria 3:</span>
+                            <br></br>
+                            Mujer de 58 años que compra ropa deportiva de forma
+                            ocasional. Utiliza este tipo de ropa principalmente
+                            como vestimenta diaria, aunque también realiza
+                            actividades de mantenimiento como pilates y aquagym.
+                          </p>
+                          <p>
+                            <b>Organización y etiquetado:</b>
+                            <br></br>
+                            La usuaria mostró un enfoque más práctico y
+                            sencillo, agrupando los productos en categorías más
+                            amplias y fácilmente reconocibles, creando
+                            categorías sencillas pero relacionadas con su
+                            experiencia personal. a Nos comenta que organiza
+                            este tipo de ropa en función de sus actividades y en
+                            su día a día, lo que refuerza la idea de que hay que
+                            tener en cuenta los perfiles que usan la ropa
+                            deportiva como lifestyle. .
+                          </p>
+                          <p>
+                            <b>Recogida de datos:</b>
+                            <br></br>
+                            El modelo mental de la Usuaria 3 está basado
+                            principalmente en el <b>
+                              uso práctico y cotidiano
+                            </b>{" "}
+                            de la ropa deportiva. Se basa en una clasificación
+                            menos detallada y más funcional, prefiriendo una
+                            estructura más simple y fácilmente reconocible.
+                          </p>
+                        </div>
+                        <div className="h-100 d-flex align-items-center justify-content-center">
+                          <img
+                            className="d-md-none"
+                            src={cardSorting3}
+                            alt="resultado experimento de etiquetado usuario 1"
+                            width="350"
+                          />
+                          <img
+                            className="d-none d-md-block"
+                            src={cardSorting3}
+                            alt="resultado experimento de etiquetado usuario 1"
+                            width="600"
+                          />
+                        </div>
                       </li>
-                  </ul>
+                    </ul>
                   </Col>
-
-                  </Row>
-                  </Row>
-                   <Row>
+                </Row>
+              </Row>
+              <Row>
                 <Col>
-   <h3 className="fs-4 py-3">3.1- Sitemap</h3>
-                  <p>El diseño de este mapa del sitio es la representación visual del ejercicio de clasificación de tarjetas, teniendo en cuenta también las funcionalidades que piden el briefing, más las que se han considerado necesarias. Podemos ver de manera gráfica cuántas pantallas va a necesitar la aplicación y su jerarquía. </p>
-                  <Button  variant="primary"><a
+                  <h3 className="fs-4 py-3">3.1- Sitemap</h3>
+                  <p>
+                    El diseño de este mapa del sitio es la representación visual
+                    del ejercicio de clasificación de tarjetas, teniendo en
+                    cuenta también las funcionalidades que piden el briefing,
+                    más las que se han considerado necesarias. Podemos ver de
+                    manera gráfica <b>cuántas pantallas</b> va a necesitar la
+                    aplicación y su jerarquía.{" "}
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <h3 className="fs-4 py-3">3.2- Diagrama de flujo </h3>
+                  <p>
+                    Para definir la secuencia lógica de los pasos ordenados que
+                    sigue el usuario para realizar distintas acciones se ha
+                    creado un <b>flujo de navegación</b>. Este método nos
+                    permite tener una representación gráfica de la navegación de
+                    nuestra web, viendo las interacciones que el usuario podría
+                    realizar para garantizar que la navegación sea correcta.
+                    También nos permite anticipar acciones reales de los
+                    usuarios, detectar puntos de fricción y tomar decisiones de
+                    diseño fundamentadas antes de la fase de desarrollo.{" "}
+                  </p>
+                  <p className="mt-3">
+                    Puedes ver tanto el Sitemap como el Diagrama de flujo desde
+                    este{" "}
+                    <a
                       href="https://www.figma.com/board/GASLjIDLTc3OiyKpmYXFAM/Flujos-de-navegaci%C3%B3n?node-id=2029-525&t=tDx3NXkhLaQgljhH-1"
                       target="_blank"
                       rel="noopener noreferrer"
+                      variant="outline-moveon-color-dark"
+                      className="d-inline-flex align-items-center gap-1 fw-bold text-moveon-color-dark"
                     >
-                      FLUJOS
-                      DE NAV.
-                    </a></Button>
-                  </Col>
-
-                  </Row>
-                  </article>
+                      enlace
+                      <BsBoxArrowUpRight size={14} aria-hidden="true" />
+                    </a>
+                    .
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <h3 className="fs-4 py-3">3.3- Wireframes Lo-fi </h3>
+                  <p>
+                    Primero se han bocetado los wireframes lo-fi con papel y
+                    lápiz, empezando con la versión de móvil para tener una
+                    visión general de manera rápida para luego construirlos
+                    digitalmente en Figma.
+                  </p>
+                  <p>
+                    Un diseño <b>responsive</b> es fundamental para asegurarnos
+                    que la app sea fácilmente visualizada en cualquier
+                    dispositivo. En estos wireframes se han definido las{" "}
+                    <b>principales pantallas y flujos de la aplicación</b>,
+                    priorizando la jerarquía de la información, la usabilidad y
+                    la claridad en la navegación.
+                  </p>
+                  <p className="mt-3">
+                    Puedes ver el prototipo en Figma desde este{" "}
+                    <a
+                      href="https://www.figma.com/design/tbWp51xWwgLV28UUm3tySj/Wireframes?node-id=0-1&t=PpfFYJBnY9Os4FUp-1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      variant="outline-moveon-color-dark"
+                      className="d-inline-flex align-items-center gap-1 fw-bold text-moveon-color-dark"
+                    >
+                      enlace
+                    <BsBoxArrowUpRight size={14} aria-hidden="true" />.
+                    </a>
+                  </p>
+                </Col>
+              </Row>
+            </article>
           </div>
         </Col>
       </Row>
