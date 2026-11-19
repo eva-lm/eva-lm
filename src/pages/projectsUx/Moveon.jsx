@@ -14,6 +14,15 @@ import imgObjMobile from "../../img/ux-projects/moveon/objetivos-mobile.svg";
 import cardSorting1 from "../../img/ux-projects/moveon/card-sorting-1.jpg";
 import cardSorting2 from "../../img/ux-projects/moveon/card-sorting-2.jpg";
 import cardSorting3 from "../../img/ux-projects/moveon/card-sorting-3.jpg";
+import logos from "../../img/ux-projects/moveon/logos.svg";
+import logosResponsive from "../../img/ux-projects/moveon/logos-responsive.svg";
+import colors from "../../img/ux-projects/moveon/colors.svg";
+import jerarquiaTipo from "../../img/ux-projects/moveon/jerarquia-tipografica.svg";
+import checker from "../../img/ux-projects/moveon/checker.png";
+import button from "../../img/ux-projects/moveon/button.svg";
+import moveonVideo from "../../video/moveon.mov";
+
+
 
 import "../../Styles/Layout/Ux.scss";
 
@@ -540,8 +549,8 @@ const Moveon = () => {
                         rel="noopener noreferrer"
                         className="d-inline-flex align-items-center gap-1 fw-bold"
                       >
-                        <BsBoxArrowUpRight size={13} aria-hidden="true" />
                         propio cuestionario
+                        <BsBoxArrowUpRight size={13} aria-hidden="true" />
                       </a>
                       , incluyendo preguntas abiertas y cerradas, algunas con
                       múltiples respuestas, para intentar obtener los máximos
@@ -738,7 +747,7 @@ const Moveon = () => {
                     <h3 className="fs-4 my-3">2.2- ¿Cómo podríamos...?</h3>
                     <p>
                       A partir de la definición del problema, se plantean las
-                      siguientes<b>preguntas de oportunidad</b> , que servirán
+                      siguientes <b>preguntas de oportunidad</b> , que servirán
                       de puente hacia la fase de Idear:
                     </p>
                     <ul className="list-square ps-3">
@@ -1141,9 +1150,198 @@ const Moveon = () => {
                       className="d-inline-flex align-items-center gap-1 fw-bold text-moveon-color-dark"
                     >
                       enlace
-                    <BsBoxArrowUpRight size={14} aria-hidden="true" />.
+                      <BsBoxArrowUpRight size={14} aria-hidden="true" />.
                     </a>
                   </p>
+                </Col>
+              </Row>
+            </article>
+
+            <article id="prototipo">
+              <Row className="mt-5">
+                <Col className="py-3">
+                  <div className="d-flex flex-column align-items-center justify-content-center">
+                    <div className="position-relative my-3">
+                      <h2 className="fs-1 fw-light text-uppercase text-center">
+                        05. Prototipo
+                      </h2>
+                      <div className="text-title-decoration position-absolute"></div>
+                    </div>
+
+                    <p className="fs-6 fw-light mt-3 w-75 text-center">
+                      <em>
+                        “Aquí es donde el proyecto cobra vida. Es la fase más
+                        emocionante porque es donde la investigación y el diseño
+                        se encuentran, el producto se convierte en una
+                        realidad.”
+                      </em>
+                    </p>
+                    <div className="d-flex align-items-center gap-5 mt-3">
+                      <p className="text-uppercase fs-5 fw-semibold">
+                        En esta sección
+                      </p>
+                      <ul className="">
+                        <li>
+                          <a href="#">5.1 Branding</a>
+                        </li>
+                        <li>
+                          <a href="#">5.2 Accesibilidad y usabilidad</a>
+                        </li>
+                        <li>
+                          <a href="#">5.3 Prototipo de alta fidelidad</a>
+                        </li>
+                        <li>
+                          <a href="#">5.4 Flujo interactivo</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="border-bottom-moveon-color my-3"></div>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <h3 className="fs-4 py-3">5.1- Branding</h3>
+                  <p>
+                    Para definir la <b>identidad de marca</b>, primeramente he
+                    pensado en darle un nombre que transmite movimiento,
+                    motivación y bienestar, de ahí viene “Move On”.{" "}
+                  </p>
+                  <p className="border-left ps-2">
+                    Su filosofía busca <b>alejarse de los estereotipos</b> asociados al
+                    deporte de competición y promover una visión más inclusiva,
+                    amigable, cercana y accesible de la actividad física,
+                    entendida como parte de un estilo de vida saludable.
+                  </p>
+                  <p>
+                    Este <b>logo</b> está inspirado en la investigación con los
+                    usuarios los cuales valoran la sencillez junto con una
+                    experiencia accesible para todos.
+                  </p>
+                </Col>
+              </Row>
+                            <Row>
+                <Col className="p-3 mt-3">
+                  <div className="d-flex flex-column flex-md-row gap-3 align-items-center justify-content-center">
+                    <img
+                      src={logos}
+                      alt="logotipos Moveon"
+                      height="180"
+                    />
+                    <img
+                      src={logosResponsive}
+                      alt="logotipos Moveon para pc y móvil"
+                      height="180"
+                    />
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <div className="mt-3">
+                    <h4 className="fs-5 mt-4">
+                      5.1.1- Paleta cromática
+                    </h4>
+                    <p className="mt-3">
+                     La elección de los colores responde a la intención de proyectar una imagen <b>fresca, energética y amigable</b>. Quería representar un ambiente en el que los usuarios sintieran confianza en sí mismos, dinamismo y movimiento.
+                    </p>
+                          <div>
+                    <img
+                      src={colors}
+                      alt="paleta cromática de Moveon"
+                      height="800"
+                    />
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+                            <Row>
+                <Col>
+                  <div className="mt-3">
+                    <h4 className="fs-5 mt-4">
+                      5.1.2- Tipografía
+                    </h4>
+                    <p className="mt-3">
+                    Para la construcción del sistema tipográfico se seleccionaron <b>dos familias</b> complementarias:
+                    </p>
+                    <ul className="list-square ps-3">
+                      <li><b>Jost</b>, utilizada en títulos y encabezados por su personalidad moderna, geométrica y de fácil lectura.</li>
+                      <li><b>Manrope</b>, utilizada en textos de lectura continua gracias a su excelente legibilidad en dispositivos móviles.</li>
+                    </ul>
+                    <p>La <b>jerarquía</b> tipográfica utilizada es la siguiente:</p>
+                          <div className="mt-2 mb-5">
+                    <img
+                      src={jerarquiaTipo}
+                      alt="jerarquía tipográfica"
+                      height="270"
+                    />
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+                            <Row>
+                <Col>
+                  <h3 className="fs-4 py-3">5.2- Accesibilidad y usabilidad</h3>
+                  <p>
+                    Durante el diseño se revisaron los contrastes de color mediante herramientas de validación de accesibilidad y de contraste utilizando la herramienta WebAIM Contrast Checker con el objetivo de garantizar la legibilidad y accesibilidad visual de la interfaz siguiendo las <b>recomendaciones WCAG</b>.
+                  </p>
+                  <p>
+                 La finalidad es transmitir una interfaz visualmente coherente y alineada con los valores de la marca, ofreciendo una experiencia sencilla, accesible y orientada a facilitar la compra de productos deportivos.
+                  </p>
+                  <div className="d-flex flex-column gap-3 align-items-center justify-content-center mt-2 mb-5">
+                    <img
+                      src={button}
+                      alt="boton principal de la app"
+                      height="100"
+                    />
+                    <img
+                      src={checker}
+                      alt="captura de pantalla del contraste de color con un Contrast Rario de 12.65"
+                      height="500"
+                    />
+                  </div>
+                </Col>
+              </Row>
+                                          <Row>
+                <Col>
+                  <h3 className="fs-4 py-3">5.3- Wireframes de alta fidelidad</h3>
+                  <p>
+                    El prototipo final ha sido desarrollado en Figma para versión móvil. Se han diseñado un total de 11 pantallas conectadas mediante interacciones que permiten simular el flujo principal de navegación y compra de la aplicación.
+                  </p>
+                  <p className="mt-3">
+                    Puedes ver el prototipo en alta fidelidad en el siguiente
+                    {" "}
+                    <a
+                      href="https://www.figma.com/design/UD5Y5qB0r0e4ydBDwGj95S/Prototipo--Hi-Fi-?node-id=0-1&t=uMgUSAHyCT24w2Rh-1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      variant="outline-moveon-color-dark"
+                      className="d-inline-flex align-items-center gap-1 fw-bold text-moveon-color-dark"
+                    >
+                      enlace
+                      <BsBoxArrowUpRight size={14} aria-hidden="true" />
+                    </a>
+                    .
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+    <div style={{ overflow: 'hidden', borderRadius: '8px', width: '340px' }}>
+      <video
+        src={moveonVideo}
+        autoPlay
+        muted
+        loop
+        playsInline
+        style={{
+          width: '100%',
+          display: 'block',
+          transform: 'scale(1.02)', // Aumenta ligeramente para ocultar los bordes
+        }}
+      />
+    </div>
+
                 </Col>
               </Row>
             </article>

@@ -100,6 +100,11 @@
   border-left: solid 5px map-get($theme-colors, "moveon-color-dark");
 }
 
+.moveon {
+  h3 {
+    color: map-get($theme-colors, "moveon-color-dark") !important;
+  }
+}
 @media (width >= 768px) {
   .project-img {
     height: 150px;
