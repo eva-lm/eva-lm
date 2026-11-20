@@ -19,7 +19,7 @@ import logosResponsive from "../../img/ux-projects/moveon/logos-responsive.svg";
 import colors from "../../img/ux-projects/moveon/colors.svg";
 import jerarquiaTipo from "../../img/ux-projects/moveon/jerarquia-tipografica.svg";
 import checker from "../../img/ux-projects/moveon/checker.png";
-import button from "../../img/ux-projects/moveon/button.svg";
+import buttonImg from "../../img/ux-projects/moveon/button.svg";
 import moveonVideo from "../../video/moveon.mov";
 
 
@@ -1290,7 +1290,7 @@ const Moveon = () => {
                   </p>
                   <div className="d-flex flex-column gap-3 align-items-center justify-content-center mt-2 mb-5">
                     <img
-                      src={button}
+                      src={buttonImg}
                       alt="boton principal de la app"
                       height="100"
                     />
