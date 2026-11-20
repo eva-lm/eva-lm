@@ -19,7 +19,7 @@ import logosResponsive from "../../img/ux-projects/moveon/logos-responsive.svg";
 import colors from "../../img/ux-projects/moveon/colors.svg";
 import jerarquiaTipo from "../../img/ux-projects/moveon/jerarquia-tipografica.svg";
 import checker from "../../img/ux-projects/moveon/checker.png";
-import buttonImg from "../../img/ux-projects/moveon/button.svg";
+import buttonImg from "../../img/ux-projects/moveon/Button.svg";
 import moveonVideo from "../../video/moveon.mov";
 
 
