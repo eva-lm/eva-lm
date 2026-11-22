@@ -414,7 +414,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3" id="cuestionarios-usuario">
+                    <h3 className="fs-4 mt-5 mb-3" id="cuestionarios-usuario">
                       1.2- Cuestionarios de usuario
                     </h3>
                     <p>
@@ -604,7 +604,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3" id="user-persona">
+                    <h3 className="fs-4 mt-5 mb-3" id="user-persona">
                       1.2- User Persona
                     </h3>
                     <p>
@@ -623,18 +623,22 @@ const Moveon = () => {
                       usuario.
                     </p>
                     <div className="d-md-flex align-items-center gap-2">
+                      <picture className="img-container">
                       <img
                         className="w-100 w-md-50"
                         src={imgUser1}
                         alt="descripcion de la primera user persona"
-                        height=""
+                        width="913"
                       />
+                      </picture>
+                      <picture className="img-container">
                       <img
                         className="w-100 w-md-50 mt-2 mt-md-0"
                         src={imgUser2}
                         alt="descripcion de la segunda user persona"
-                        height=""
+                        width="913"
                       />
+                      </picture>
                     </div>
                   </div>
                 </Col>
@@ -642,7 +646,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-4">
-                    <h3 className="fs-4 my-3">
+                    <h3 className="fs-4 mt-5 mb-3">
                       1.3- Conclusiones de la investigación y hallazgos clave
                     </h3>
                     <p>
@@ -731,7 +735,7 @@ const Moveon = () => {
                     lo investigado en un problema concreto y unos objetivos
                     claros, antes de pasar a idear soluciones.
                   </p>
-                  <h3 className="fs-4 py-3">2.1- Definición del problema</h3>
+                  <h3 className="fs-4 mt-5 mb-3">2.1- Definición del problema</h3>
                   <p className="border-left ps-2">
                     Los usuarios que compran ropa deportiva online necesitan una
                     forma fiable, rápida y sencilla de saber en que el producto
@@ -744,7 +748,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3">2.2- ¿Cómo podríamos...?</h3>
+                    <h3 className="fs-4 mt-5 mb-3">2.2- ¿Cómo podríamos...?</h3>
                     <p>
                       A partir de la definición del problema, se plantean las
                       siguientes <b>preguntas de oportunidad</b> , que servirán
@@ -774,20 +778,24 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3">2.3- Objetivos del proyecto</h3>
+                    <h3 className="fs-4 mt-5 mb-3">2.3- Objetivos del proyecto</h3>
                     <div className="h-100 d-flex align-items-center justify-content-center">
+                      <picture className="img-container">
                       <img
                         className="d-md-none"
                         src={imgObjMobile}
                         alt="objetivos del usuario, negocio y diseño"
                         height="900"
                       />
+                      </picture>
+                       <picture className="img-container">
                       <img
                         className="d-none d-md-block"
                         src={imgObj}
                         alt="objetivos del usuario, negocio y diseño"
                         height="400"
                       />
+                       </picture>
                     </div>
                   </div>
                 </Col>
@@ -795,7 +803,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 my-3">
+                    <h3 className="fs-4 mt-5 mb-3">
                       2.4- Hoja de ruta de características
                     </h3>
                     <p>
@@ -872,7 +880,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 py-3">3.1- Card sorting</h3>
+                  <h3 className="fs-4 mt-5 mb-3">3.1- Card sorting</h3>
                   <p>
                     Ahora que conocemos a nuestro público objetivo y el contexto
                     del proyecto, es hora de definir la{" "}
@@ -921,7 +929,7 @@ const Moveon = () => {
                   <Col>
                     <ul>
                       <li class="mt-3 d-md-flex gap-3 gray-container p-4">
-                        <div>
+                        <div className="w-md-50">
                           <p>
                             <span className="fs-5 text-gray">Usuario 1:</span>
                             <br></br>
@@ -961,23 +969,27 @@ const Moveon = () => {
                             deporte.
                           </p>
                         </div>
-                        <div className="h-100 d-flex align-items-center justify-content-center">
+                        <div className="w-md-50">
+                          {/* <picture className="img-container">
                           <img
                             className="d-md-none"
                             src={cardSorting1}
                             alt="resultado experimento de etiquetado usuario 1"
                             width="350"
                           />
+                          </picture> */}
+                          <picture className="img-container">
                           <img
-                            className="d-none d-md-block"
+                            className=""
                             src={cardSorting1}
                             alt="resultado experimento de etiquetado usuario 1"
                             width="600"
                           />
+                          </picture>
                         </div>
                       </li>
                       <li class="mt-3 d-md-flex gap-3 gray-container p-4">
-                        <div>
+                        <div className="w-md-50">
                           <p>
                             <span className="fs-5 text-gray">Usuario 2:</span>
                             <br></br>
@@ -1010,23 +1022,27 @@ const Moveon = () => {
                             clima o temporada.
                           </p>
                         </div>
-                        <div className="h-100 d-flex align-items-center justify-content-center">
+                        <div className="w-md-50">
+                          <picture className="img-container">
                           <img
                             className="d-md-none"
                             src={cardSorting2}
-                            alt="resultado experimento de etiquetado usuario 1"
+                            alt="resultado experimento de etiquetado usuario 2"
                             width="350"
                           />
+                          </picture>
+                          <picture className="img-container">
                           <img
                             className="d-none d-md-block"
                             src={cardSorting2}
-                            alt="resultado experimento de etiquetado usuario 1"
+                            alt="resultado experimento de etiquetado usuario 2"
                             width="600"
                           />
+                          </picture>
                         </div>
                       </li>
                       <li class="mt-3 d-md-flex gap-3 gray-container p-4">
-                        <div>
+                        <div className="w-md-50">
                           <p>
                             <span className="fs-5 text-gray">Usuaria 3:</span>
                             <br></br>
@@ -1060,19 +1076,23 @@ const Moveon = () => {
                             estructura más simple y fácilmente reconocible.
                           </p>
                         </div>
-                        <div className="h-100 d-flex align-items-center justify-content-center">
+                        <div className="w-md-50">
+                          <picture className="img-container">
                           <img
                             className="d-md-none"
                             src={cardSorting3}
-                            alt="resultado experimento de etiquetado usuario 1"
+                            alt="resultado experimento de etiquetado usuario 3"
                             width="350"
                           />
+                          </picture>
+                          <picture className="img-container">
                           <img
                             className="d-none d-md-block"
                             src={cardSorting3}
-                            alt="resultado experimento de etiquetado usuario 1"
+                            alt="resultado experimento de etiquetado usuario 3"
                             width="600"
                           />
+                          </picture>
                         </div>
                       </li>
                     </ul>
@@ -1081,7 +1101,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 py-3">3.1- Sitemap</h3>
+                  <h3 className="fs-4 mt-5 mb-3">3.1- Sitemap</h3>
                   <p>
                     El diseño de este mapa del sitio es la representación visual
                     del ejercicio de clasificación de tarjetas, teniendo en
@@ -1094,7 +1114,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 py-3">3.2- Diagrama de flujo </h3>
+                  <h3 className="fs-4 mt-5 mb-3">3.2- Diagrama de flujo </h3>
                   <p>
                     Para definir la secuencia lógica de los pasos ordenados que
                     sigue el usuario para realizar distintas acciones se ha
@@ -1125,7 +1145,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 py-3">3.3- Wireframes Lo-fi </h3>
+                  <h3 className="fs-4 mt-5 mb-3">3.3- Wireframes Lo-fi </h3>
                   <p>
                     Primero se han bocetado los wireframes lo-fi con papel y
                     lápiz, empezando con la versión de móvil para tener una
@@ -1201,7 +1221,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 py-3">5.1- Branding</h3>
+                  <h3 className="fs-4 mt-5 mb-3">5.1- Branding</h3>
                   <p>
                     Para definir la <b>identidad de marca</b>, primeramente he
                     pensado en darle un nombre que transmite movimiento,
@@ -1223,16 +1243,20 @@ const Moveon = () => {
                             <Row>
                 <Col className="p-3 mt-3">
                   <div className="d-flex flex-column flex-md-row gap-3 align-items-center justify-content-center">
+                    <picture className="img-container">
                     <img
                       src={logos}
                       alt="logotipos Moveon"
                       height="180"
                     />
+                    </picture>
+                       <picture className="img-container">
                     <img
                       src={logosResponsive}
                       alt="logotipos Moveon para pc y móvil"
                       height="180"
                     />
+                       </picture>
                   </div>
                 </Col>
               </Row>
@@ -1281,7 +1305,7 @@ const Moveon = () => {
               </Row>
                             <Row>
                 <Col>
-                  <h3 className="fs-4 py-3">5.2- Accesibilidad y usabilidad</h3>
+                  <h3 className="fs-4 mt-5 mb-3">5.2- Accesibilidad y usabilidad</h3>
                   <p>
                     Durante el diseño se revisaron los contrastes de color mediante herramientas de validación de accesibilidad y de contraste utilizando la herramienta WebAIM Contrast Checker con el objetivo de garantizar la legibilidad y accesibilidad visual de la interfaz siguiendo las <b>recomendaciones WCAG</b>.
                   </p>
@@ -1304,7 +1328,7 @@ const Moveon = () => {
               </Row>
                                           <Row>
                 <Col>
-                  <h3 className="fs-4 py-3">5.3- Wireframes de alta fidelidad</h3>
+                  <h3 className="fs-4 mt-5 mb-3">5.3- Wireframes de alta fidelidad</h3>
                   <p>
                     El prototipo final ha sido desarrollado en Figma para versión móvil. Se han diseñado un total de 11 pantallas conectadas mediante interacciones que permiten simular el flujo principal de navegación y compra de la aplicación.
                   </p>

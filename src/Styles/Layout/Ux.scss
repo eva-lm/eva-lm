@@ -101,8 +101,27 @@
 }
 
 .moveon {
-  h3 {
-    color: map-get($theme-colors, "moveon-color-dark") !important;
+  article {
+    margin-bottom: 3.5rem;
+    h3 {
+      color: map-get($theme-colors, "moveon-color-dark") !important;
+    }
+    h4 {
+      color: lighten(
+        map-get($theme-colors, "moveon-color-dark"),
+        9%
+      ) !important;
+    }
+  }
+  .img-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .img-container img {
+    object-fit: contain;
+    max-height: 100%;
+    width: 100%;
   }
 }
 @media (width >= 768px) {
