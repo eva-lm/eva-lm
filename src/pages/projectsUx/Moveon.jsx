@@ -33,26 +33,27 @@ const Moveon = () => {
         <Col>
           <div>
             <article id="presentacion-moveon">
-              <Row className="d-md-flex align-items-center">
+              <Row className="d-md-flex gap-4 align-items-center">
                 <Col
-                  sm={12}
-                  md={6}
+            
                   className="mt-2 bg-decoration position-relative"
                 >
                   <p className="fs-6 font-mono position-absolute">
                     Case Study nº.1
                   </p>
                   <div className="h-100 d-flex align-items-center justify-content-center">
+                    <picture className="img-container">
                     <img
                       className="img-header-moveon"
                       src={imgHeaderMoveon}
                       alt="mockups de iphone mostrando la pantalla de inicio de la app"
-                      width="1500"
+                      width="1000"
                     />
+                    </picture>
                   </div>
                 </Col>
 
-                <Col sm={12} md={6} className="mt-4 mt-md-2 px-4">
+                <Col className="mt-4 mt-md-2 px-4">
                   <h1 className="fs-3">MOVE ON</h1>
                   <p className="fs-4 fw-light">“Move your way”</p>
                   <p>
@@ -311,7 +312,7 @@ const Moveon = () => {
                       <h2 className="fs-1 fw-light text-uppercase text-center">
                         01. EMPATIZAR
                       </h2>
-                      <div className="text-title-decoration position-absolute"></div>
+                      <div className="text-title-decoration"></div>
                     </div>
 
                     <p className="fs-6 fw-light mt-3 w-75 text-center">
@@ -321,11 +322,11 @@ const Moveon = () => {
                         Busque la comprensión haciendo preguntas.”
                       </em>
                     </p>
-                    <div className="d-flex align-items-center gap-5 mt-3">
-                      <p className="text-uppercase fs-5 fw-semibold">
+                    <div className="d-flex align-items-center justify-content-center gap-2 mt-3">
+                      <p className="text-uppercase fs-6 text-moveon fw-semibold">
                         En esta sección
                       </p>
-                      <ul className="">
+                      <ul className="border-left-sm p-2">
                         <li>
                           <a href="#analisis-competitivo">
                             1.1 Análisis Competitivo
@@ -396,18 +397,22 @@ const Moveon = () => {
               <Row>
                 <Col className="bg-moveon-color p-4 mt-3">
                   <div className="h-100 d-flex align-items-center justify-content-center">
+                    <picture className="img-container">
                     <img
                       className="d-md-none"
                       src={imgAnalisisMobile}
                       alt="esquema analisis competitivo de otras marcas"
                       height="1500"
                     />
+                    </picture>
+                     <picture className="img-container">
                     <img
                       className="d-none d-md-block"
                       src={imgAnalisis}
                       alt="esquema analisis competitivo de otras marcas"
                       height="600"
                     />
+                     </picture>
                   </div>
                 </Col>
               </Row>
@@ -699,17 +704,17 @@ const Moveon = () => {
                       <h2 className="fs-1 fw-light text-uppercase text-center">
                         02. Definir
                       </h2>
-                      <div className="text-title-decoration position-absolute"></div>
+                      <div className="text-title-decoration"></div>
                     </div>
 
                     <p className="fs-6 fw-light mt-3 w-75 text-center">
                       <em>“Haga el plan, trabaje el plan.”</em>
                     </p>
-                    <div className="d-flex align-items-center gap-5 mt-3">
-                      <p className="text-uppercase fs-5 fw-semibold">
+                    <div className="d-flex align-items-center gap-2 mt-3">
+                      <p className="text-uppercase fs-6 fw-semibold">
                         En esta sección
                       </p>
-                      <ul className="">
+                      <ul className="border-left-sm p-2">
                         <li>
                           <a href="#">2.1 Definición del problema</a>
                         </li>
@@ -847,7 +852,7 @@ const Moveon = () => {
                       <h2 className="fs-1 fw-light text-uppercase text-center">
                         03. idear
                       </h2>
-                      <div className="text-title-decoration position-absolute"></div>
+                      <div className="text-title-decoration"></div>
                     </div>
 
                     <p className="fs-6 fw-light mt-3 w-75 text-center">
@@ -858,11 +863,11 @@ const Moveon = () => {
                         resto del proyecto para construir”.
                       </em>
                     </p>
-                    <div className="d-flex align-items-center gap-5 mt-3">
-                      <p className="text-uppercase fs-5 fw-semibold">
+                    <div className="d-flex align-items-center gap-2 mt-3">
+                      <p className="text-uppercase fs-6 fw-semibold">
                         En esta sección
                       </p>
-                      <ul className="">
+                      <ul className="border-left-sm p-2">
                         <li>
                           <a href="#">3.1 Card sorting</a>
                         </li>
@@ -1185,7 +1190,7 @@ const Moveon = () => {
                       <h2 className="fs-1 fw-light text-uppercase text-center">
                         05. Prototipo
                       </h2>
-                      <div className="text-title-decoration position-absolute"></div>
+                      <div className="text-title-decoration"></div>
                     </div>
 
                     <p className="fs-6 fw-light mt-3 w-75 text-center">
@@ -1196,11 +1201,11 @@ const Moveon = () => {
                         realidad.”
                       </em>
                     </p>
-                    <div className="d-flex align-items-center gap-5 mt-3">
-                      <p className="text-uppercase fs-5 fw-semibold">
+                    <div className="d-flex align-items-center gap-2 mt-3">
+                      <p className="text-uppercase fs-6 fw-semibold">
                         En esta sección
                       </p>
-                      <ul className="">
+                      <ul className="border-left-sm p-2">
                         <li>
                           <a href="#">5.1 Branding</a>
                         </li>
@@ -1269,12 +1274,12 @@ const Moveon = () => {
                     <p className="mt-3">
                      La elección de los colores responde a la intención de proyectar una imagen <b>fresca, energética y amigable</b>. Quería representar un ambiente en el que los usuarios sintieran confianza en sí mismos, dinamismo y movimiento.
                     </p>
-                          <div>
+                          <div className="d-flex">
                               <picture className="img-container">
                     <img
                       src={colors}
                       alt="paleta cromática de Moveon"
-                      width="500"
+                      height="650"
                     />
                               </picture>
                     </div>
@@ -1316,14 +1321,16 @@ const Moveon = () => {
                   <p>
                  La finalidad es transmitir una interfaz visualmente coherente y alineada con los valores de la marca, ofreciendo una experiencia sencilla, accesible y orientada a facilitar la compra de productos deportivos.
                   </p>
-                  <div className="d-flex flex-column gap-3 align-items-center justify-content-center mt-2 mb-5">
+                  <div className="d-flex">
                       <picture className="img-container">
                     <img
                       src={buttonImg}
                       alt="boton principal de la app"
-                      height="100"
+                      height="80"
                     />
                       </picture>
+                         </div>
+                              <div className="d-flex mt-3">
                         <picture className="img-container">
                     <img
                       src={checker}
@@ -1360,7 +1367,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                 <div className="d-flex align-items-center justify-content-center">
-    <div style={{ overflow: 'hidden', borderRadius: '8px', width: '340px' }}>
+    <div style={{ overflow: 'hidden', borderRadius: '8px', width: '300px' }}>
       <video
         src={moveonVideo}
         autoPlay

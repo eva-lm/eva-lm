@@ -79,7 +79,7 @@
   top: 50px;
   left: 0px;
   height: 10px;
-  width: 90px;
+  width: 75px;
   background-color: map-get($theme-colors, "moveon-color");
 }
 .border-bottom-moveon-color {
@@ -98,6 +98,38 @@
 }
 .border-left {
   border-left: solid 5px map-get($theme-colors, "moveon-color-dark");
+}
+
+// .border-left-sm {
+//   border-left: solid 1px map-get($theme-colors, "moveon-color-dark");
+// }
+.border-left-sm {
+  position: relative;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 55%;
+    border-left: solid 1px map-get($theme-colors, "moveon-color-dark");
+  }
+
+  // Mitad superior (curva arriba a la izquierda, punta abajo a la derecha)
+  &::before {
+    top: 0;
+    border-top: solid 1px map-get($theme-colors, "moveon-color-dark");
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  // Mitad inferior (punta arriba a la derecha, curva abajo a la izquierda)
+  &::after {
+    bottom: 0;
+    border-bottom: solid 1px map-get($theme-colors, "moveon-color-dark");
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
 }
 
 .moveon {
@@ -146,5 +178,5 @@
   }
 }
 .img-header-moveon {
-  min-width: 450px;
+  min-width: 350px;
 }
