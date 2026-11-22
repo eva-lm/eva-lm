@@ -1270,11 +1270,13 @@ const Moveon = () => {
                      La elección de los colores responde a la intención de proyectar una imagen <b>fresca, energética y amigable</b>. Quería representar un ambiente en el que los usuarios sintieran confianza en sí mismos, dinamismo y movimiento.
                     </p>
                           <div>
+                              <picture className="img-container">
                     <img
                       src={colors}
                       alt="paleta cromática de Moveon"
-                      height="800"
+                      width="500"
                     />
+                              </picture>
                     </div>
                   </div>
                 </Col>
@@ -1294,11 +1296,13 @@ const Moveon = () => {
                     </ul>
                     <p>La <b>jerarquía</b> tipográfica utilizada es la siguiente:</p>
                           <div className="mt-2 mb-5">
+                              <picture>
                     <img
                       src={jerarquiaTipo}
                       alt="jerarquía tipográfica"
-                      height="270"
+                      width="350"
                     />
+                              </picture>
                     </div>
                   </div>
                 </Col>
@@ -1313,16 +1317,20 @@ const Moveon = () => {
                  La finalidad es transmitir una interfaz visualmente coherente y alineada con los valores de la marca, ofreciendo una experiencia sencilla, accesible y orientada a facilitar la compra de productos deportivos.
                   </p>
                   <div className="d-flex flex-column gap-3 align-items-center justify-content-center mt-2 mb-5">
+                      <picture className="img-container">
                     <img
                       src={buttonImg}
                       alt="boton principal de la app"
                       height="100"
                     />
+                      </picture>
+                        <picture className="img-container">
                     <img
                       src={checker}
                       alt="captura de pantalla del contraste de color con un Contrast Rario de 12.65"
                       height="500"
                     />
+                        </picture>
                   </div>
                 </Col>
               </Row>
@@ -1351,6 +1359,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
+                <div className="d-flex align-items-center justify-content-center">
     <div style={{ overflow: 'hidden', borderRadius: '8px', width: '340px' }}>
       <video
         src={moveonVideo}
@@ -1365,6 +1374,7 @@ const Moveon = () => {
         }}
       />
     </div>
+                </div>
 
                 </Col>
               </Row>
