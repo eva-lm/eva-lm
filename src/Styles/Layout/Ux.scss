@@ -112,13 +112,13 @@
     left: 0;
     width: 15px;
     height: 55%;
-    border-left: solid 1px map-get($theme-colors, "moveon-color-dark");
+    border-left: solid 1px map-get($theme-colors, "moveon-color");
   }
 
   // Mitad superior (curva arriba a la izquierda, punta abajo a la derecha)
   &::before {
     top: 0;
-    border-top: solid 1px map-get($theme-colors, "moveon-color-dark");
+    border-top: solid 1px map-get($theme-colors, "moveon-color");
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
@@ -126,7 +126,7 @@
   // Mitad inferior (punta arriba a la derecha, curva abajo a la izquierda)
   &::after {
     bottom: 0;
-    border-bottom: solid 1px map-get($theme-colors, "moveon-color-dark");
+    border-bottom: solid 1px map-get($theme-colors, "moveon-color");
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
   }

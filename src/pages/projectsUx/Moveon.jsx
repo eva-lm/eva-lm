@@ -27,6 +27,13 @@ import moveonVideo from "../../video/moveon.mov";
 import "../../Styles/Layout/Ux.scss";
 
 const Moveon = () => {
+    const irASeccion = (e, id) => {
+    e.preventDefault(); 
+    const elemento = document.getElementById(id);
+    if (elemento) {
+      elemento.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="mt-4 moveon">
       <Row>
@@ -148,67 +155,69 @@ const Moveon = () => {
                       <li className="d-flex flex-column align-items-center p-3">
                         <a
                           href="#empatizar"
+                          onClick={(e) => irASeccion(e, "empatizar")}
                           className="text-moveon-color-dark text-uppercase px-3 py-1 fs-5 text-white text-decoration-none"
                         >
                           1- Empatizar
                         </a>
                         <ul className="text-center mt-2">
                           <li>
-                            <a href="#analisis-competitivo">
+                            <a href="#analisis-competitivo" onClick={(e) => irASeccion(e, "analisis-competitivo")}>
                               1.1 Análisis Competitivo
                             </a>
                           </li>
                           <li>
-                            <a href="#cuestionarios-usuario">
+                            <a href="#cuestionarios-usuario" onClick={(e) => irASeccion(e, "cuestionarios-usuario")}>
                               1.2 Cuestionarios de Usuario
                             </a>
                           </li>
                           <li>
-                            <a href="#user-persona">1.3 User Persona</a>
+                            <a href="#user-persona" onClick={(e) => irASeccion(e, "user-persona")}>1.3 User Persona</a>
                           </li>
                         </ul>
                       </li>
                       <li className="d-flex flex-column align-items-center p-3">
                         <a
-                          href="#"
+                          href="#definir"
+                          onClick={(e) => irASeccion(e, "definir")}
                           className="text-moveon-color-dark text-uppercase px-3 py-1 fs-5 text-white text-decoration-none"
                         >
                           2- Definir
                         </a>
                         <ul className="text-center mt-2">
                           <li>
-                            <a href="#">2.1 Definición del problema</a>
+                            <a href="#defincion-problema" onClick={(e) => irASeccion(e, "defincion-problema")}>2.1 Definición del problema</a>
                           </li>
                           <li>
-                            <a href="#">2.2 ¿Cómo podríamos...?</a>
+                            <a href="#como-podriamos" onClick={(e) => irASeccion(e, "como-podriamos")}>2.2 ¿Cómo podríamos...?</a>
                           </li>
                           <li>
-                            <a href="#">2.3 Objetivos del proyecto</a>
+                            <a href="#obj-proyecto" onClick={(e) => irASeccion(e, "obj-proyecto")}>2.3 Objetivos del proyecto</a>
                           </li>
                           <li>
-                            <a href="#">2.4 Hoja de ruta de características</a>
+                            <a href="#hoja-ruta" onClick={(e) => irASeccion(e, "hoja-ruta")}>2.4 Hoja de ruta de características</a>
                           </li>
                         </ul>
                       </li>
                       <li className="d-flex flex-column align-items-center p-3">
                         <a
-                          href="#"
+                          href="#idear" onClick={(e) => irASeccion(e, "idear")}
                           className="text-moveon-color-dark text-uppercase px-3 py-1 fs-5 text-white text-decoration-none"
                         >
                           3- Idear
                         </a>
                         <ul className="text-center mt-2">
                           <li>
-                            <a href="#">3.1 Card sorting</a>
+                            <a href="#card-sorting" onClick={(e) => irASeccion(e, "card-sorting")}>3.1 Card sorting</a>
                           </li>
                           <li>
-                            <a href="#">3.2 Sitemap</a>
+                            <a href="#sitemap" onClick={(e) => irASeccion(e, "sitemap")}>3.2 Sitemap</a>
                           </li>
                           <li>
-                            <a href="#">3.3 Diagrama de flujo</a>
+                            <a href="#diagrama-flujo" onClick={(e) => irASeccion(e, "diagrama-flujo")}>3.3 Diagrama de flujo</a>
                           </li>
                           <li>
-                            <a href="#">3.4 Wireframes de baja fidelidad</a>
+                            <a href="#wireframes-baja" onClick={(e) => irASeccion(e, "wireframes-baja")}>3.4 Wireframes de baja fidelidad</a>
                           </li>
                         </ul>
                       </li>
@@ -328,17 +337,20 @@ const Moveon = () => {
                       </p>
                       <ul className="border-left-sm p-2">
                         <li>
-                          <a href="#analisis-competitivo">
+                          {/* <a href="#analisis-competitivo">
                             1.1 Análisis Competitivo
-                          </a>
+                          </a> */}
+                          1.1 Análisis Competitivo
                         </li>
                         <li>
-                          <a href="#cuestionarios-usuario">
+                          {/* <a href="#cuestionarios-usuario">
                             1.2 Cuestionarios de Usuario
-                          </a>
+                          </a> */}
+                           1.2 Cuestionarios de Usuario
                         </li>
                         <li>
-                          <a href="#user-persona">1.3 User Persona</a>
+                          {/* <a href="#user-persona">1.3 User Persona</a> */}
+                          1.3 User Persona
                         </li>
                       </ul>
                     </div>
@@ -716,16 +728,20 @@ const Moveon = () => {
                       </p>
                       <ul className="border-left-sm p-2">
                         <li>
-                          <a href="#">2.1 Definición del problema</a>
+                          {/* <a href="#">2.1 Definición del problema</a> */}
+                          2.1 Definición del problema
                         </li>
                         <li>
-                          <a href="#">2.2 ¿Cómo podríamos...?</a>
+                          {/* <a href="#">2.2 ¿Cómo podríamos...?</a> */}
+                          2.2 ¿Cómo podríamos...?
                         </li>
                         <li>
-                          <a href="#">2.3 Objetivos del proyecto</a>
+                          {/* <a href="#">2.3 Objetivos del proyecto</a> */}
+                          2.3 Objetivos del proyecto
                         </li>
                         <li>
-                          <a href="#">2.4 Hoja de ruta de características</a>
+                          {/* <a href="#">2.4 Hoja de ruta de características</a> */}
+                          2.4 Hoja de ruta de características
                         </li>
                       </ul>
                     </div>
@@ -740,7 +756,7 @@ const Moveon = () => {
                     lo investigado en un problema concreto y unos objetivos
                     claros, antes de pasar a idear soluciones.
                   </p>
-                  <h3 className="fs-4 mt-5 mb-3">2.1- Definición del problema</h3>
+                  <h3 id="defincion-problema" className="fs-4 mt-5 mb-3">2.1- Definición del problema</h3>
                   <p className="border-left ps-2">
                     Los usuarios que compran ropa deportiva online necesitan una
                     forma fiable, rápida y sencilla de saber en que el producto
@@ -753,7 +769,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 mt-5 mb-3">2.2- ¿Cómo podríamos...?</h3>
+                    <h3 id="como-podriamos" className="fs-4 mt-5 mb-3">2.2- ¿Cómo podríamos...?</h3>
                     <p>
                       A partir de la definición del problema, se plantean las
                       siguientes <b>preguntas de oportunidad</b> , que servirán
@@ -783,7 +799,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 mt-5 mb-3">2.3- Objetivos del proyecto</h3>
+                    <h3 id="obj-proyecto" className="fs-4 mt-5 mb-3">2.3- Objetivos del proyecto</h3>
                     <div className="h-100 d-flex align-items-center justify-content-center">
                       <picture className="img-container">
                       <img
@@ -808,7 +824,7 @@ const Moveon = () => {
               <Row>
                 <Col>
                   <div className="mt-3">
-                    <h3 className="fs-4 mt-5 mb-3">
+                    <h3 id="hoja-ruta" className="fs-4 mt-5 mb-3">
                       2.4- Hoja de ruta de características
                     </h3>
                     <p>
@@ -885,7 +901,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">3.1- Card sorting</h3>
+                  <h3 id="card-sorting" className="fs-4 mt-5 mb-3">3.1- Card sorting</h3>
                   <p>
                     Ahora que conocemos a nuestro público objetivo y el contexto
                     del proyecto, es hora de definir la{" "}
@@ -1106,7 +1122,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">3.1- Sitemap</h3>
+                  <h3 id="sitemap" className="fs-4 mt-5 mb-3">3.1- Sitemap</h3>
                   <p>
                     El diseño de este mapa del sitio es la representación visual
                     del ejercicio de clasificación de tarjetas, teniendo en
@@ -1119,7 +1135,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">3.2- Diagrama de flujo </h3>
+                  <h3 id="diagrama-flujo" className="fs-4 mt-5 mb-3">3.2- Diagrama de flujo </h3>
                   <p>
                     Para definir la secuencia lógica de los pasos ordenados que
                     sigue el usuario para realizar distintas acciones se ha
@@ -1150,7 +1166,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">3.3- Wireframes Lo-fi </h3>
+                  <h3 iid="wireframes-baja" className="fs-4 mt-5 mb-3">3.3- Wireframes Lo-fi </h3>
                   <p>
                     Primero se han bocetado los wireframes lo-fi con papel y
                     lápiz, empezando con la versión de móvil para tener una
@@ -1385,7 +1401,75 @@ const Moveon = () => {
 
                 </Col>
               </Row>
+               <Row>
+                <Col>
+                  <h3 className="fs-4 mt-5 mb-3">5.4- Flujo interactivo</h3>
+                  <p>En base al diagrama de flujo realizado anteriormente y una vez desarrollado el prototipo de alta fidelidad, se añadieron las interacciones necesarias para simular el comportamiento real de la aplicación, para que el usuario pueda navegar entre las distintas pantallas de forma natural, reproduciendo las acciones habituales que realizaría durante una compra online.</p>
+<p>El <b>flujo principal</b> diseñado contempla las siguientes etapas:
+</p>
+<ol>
+  <li>Navegación por la página de inicio.</li>
+  <li>Exploración de listado de productos en colección destacada.</li>
+  <li>Consulta de filtros.</li>
+  <li>Pantalla de búsqueda.</li>
+  <li>Acceso al menú.</li>
+  <li>Ver detalles del producto.</li>
+  <li>Añadir producto al carrito.</li>
+  <li>Registro de usuario.</li>
+  <li>Introducción de datos de pedido.</li>
+  <li>Pasarela de pago.</li>
+  <li>Confirmación de compra.</li>
+  <li>Seguimiento del pedido.</li>
+</ol>
+<p>Durante el desarrollo del prototipo fue necesario incorporar algunas pantallas adicionales que no estaban contempladas en los wireframes iniciales, como la pantalla de búsqueda, el listado de productos y el seguimiento del pedido, con el objetivo de completar correctamente el flujo de compra. También se realizaron <b>pruebas continuas</b> de navegación durante el proceso de diseño para verificar que las interacciones entre pantallas resultaban coherentes y que el usuario podía completar todas las tareas sin bloqueos. </p>
+                  </Col>
+                  </Row>
             </article>
+               <article id="prototipo">
+              <Row className="mt-5">
+                <Col className="py-3">
+                  <div className="d-flex flex-column align-items-center justify-content-center">
+                    <div className="position-relative my-3">
+                      <h2 className="fs-1 fw-light text-uppercase text-center">
+                        06. Test
+                      </h2>
+                      <div className="text-title-decoration"></div>
+                    </div>
+
+                    <p className="fs-6 fw-light mt-3 w-75 text-center">
+                      <em>
+                        “Pruebas pruebas y mas pruebas”
+                      </em>
+                    </p>
+                    <div className="d-flex align-items-center gap-2 mt-3">
+                      <p className="text-uppercase fs-6 fw-semibold">
+                        En esta sección
+                      </p>
+                      <ul className="border-left-sm p-2">
+                        <li>
+                          <a href="#">6.1 Definición de la muestra</a>
+                        </li>
+                        <li>
+                          <a href="#">6.2 Tareas del test</a>
+                        </li>
+                        <li>
+                          <a href="#">6.3 Resultados obtenidos</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="border-bottom-moveon-color my-3"></div>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <h3 className="fs-4 mt-5 mb-3">6.1- Definición de la muestra</h3>
+                  <p>
+                    La prueba se realizó con tres participantes que encajan dentro del público objetivo ya que también participaron durante la fase de investigación previa. El objetivo principal es comprobar si la navegación, la arquitectura de la información y el flujo de compra resultan comprensibles e intuitivos para los futuros usuarios de la aplicación.
+                  </p>
+                  </Col>
+                  </Row>
+                  </article>
           </div>
         </Col>
       </Row>
