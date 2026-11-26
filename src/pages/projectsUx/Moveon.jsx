@@ -224,40 +224,44 @@ const Moveon = () => {
                       <div class="w-100"></div>
                       <li className="d-flex flex-column align-items-center p-3">
                         <a
-                          href="#"
+                          href="#diseñar" onClick={(e) => irASeccion(e, "diseñar")}
                           className="text-moveon-color-dark text-uppercase px-3 py-1 fs-5 text-white text-decoration-none"
                         >
                           4- Diseñar
                         </a>
                         <ul className="text-center mt-2">
                           <li>
-                            <a href="#">4.1 Branding</a>
+                            <a href="#branding" onClick={(e) => irASeccion(e, "branding")}>4.1 Branding</a>
                           </li>
                           <li>
-                            <a href="#">4.2 Wireframes de alta fidelidad</a>
+                            <a href="#accesibilidad" onClick={(e) => irASeccion(e, "accesibilidad")}>4.2 Accesibilidad y usabilidad</a>
                           </li>
                           <li>
-                            <a href="#">4.3 Flujo interactivo</a>
+                            <a href="#prototipo-alta" onClick={(e) => irASeccion(e, "prototipo-alta")}>4.3 Prototipo de alta fidelidad</a>
+                          </li>
+                                                    <li>
+                            <a href="#flujo" onClick={(e) => irASeccion(e, "flujo")}>4.4 Flujo interactivo</a>
                           </li>
                         </ul>
                       </li>
 
                       <li className="d-flex flex-column align-items-center p-3">
                         <a
-                          href="#"
+                          href="#test"
+                          onClick={(e) => irASeccion(e, "test")}
                           className="text-moveon-color-dark text-uppercase px-3 py-1 fs-5 text-white text-decoration-none"
                         >
                           5- Test
                         </a>
                         <ul className="text-center mt-2">
                           <li>
-                            <a href="#">5.1 Definición de la muestra</a>
+                            <a href="#definicion-muestra" onClick={(e) => irASeccion(e, "definicion-muestra")}>5.1 Definición de la muestra</a>
                           </li>
                           <li>
-                            <a href="#">5.2 Tareas del test</a>
+                            <a href="#tareas-test" onClick={(e) => irASeccion(e, "tareas-test")}>5.2 Tareas del test</a>
                           </li>
                           <li>
-                            <a href="#">5.3 Resultados obtenidos</a>
+                            <a href="#resultados" onClick={(e) => irASeccion(e, "resultados")}>5.3 Resultados obtenidos</a>
                           </li>
                         </ul>
                       </li>
@@ -385,7 +389,7 @@ const Moveon = () => {
                     desarrollo de nuestra aplicación.
                   </p>
                   <p className="fw-bold mb-1">Insights clave:</p>
-                  <ul>
+                  <ul className="list-square ps-3">
                     <li>
                       Los usuarios están familiarizados con este tipo de apps
                     </li>
@@ -885,13 +889,16 @@ const Moveon = () => {
                       </p>
                       <ul className="border-left-sm p-2">
                         <li>
-                          <a href="#">3.1 Card sorting</a>
+                         3.1 Card sorting
                         </li>
                         <li>
-                          <a href="#">3.2 Sitemap</a>
+                          3.2 Sitemap
                         </li>
                         <li>
-                          <a href="#">3.3 Diagrama de flujo</a>
+                          3.3 Diagrama de flujo
+                        </li>
+                        <li>
+                          3.4 Wireframes de baja fidelidad 
                         </li>
                       </ul>
                     </div>
@@ -1122,7 +1129,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 id="sitemap" className="fs-4 mt-5 mb-3">3.1- Sitemap</h3>
+                  <h3 id="sitemap" className="fs-4 mt-5 mb-3">3.2- Sitemap</h3>
                   <p>
                     El diseño de este mapa del sitio es la representación visual
                     del ejercicio de clasificación de tarjetas, teniendo en
@@ -1135,7 +1142,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 id="diagrama-flujo" className="fs-4 mt-5 mb-3">3.2- Diagrama de flujo </h3>
+                  <h3 id="diagrama-flujo" className="fs-4 mt-5 mb-3">3.3- Diagrama de flujo </h3>
                   <p>
                     Para definir la secuencia lógica de los pasos ordenados que
                     sigue el usuario para realizar distintas acciones se ha
@@ -1166,7 +1173,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 iid="wireframes-baja" className="fs-4 mt-5 mb-3">3.3- Wireframes Lo-fi </h3>
+                  <h3 id="wireframes-baja" className="fs-4 mt-5 mb-3">3.4- Wireframes de baja fidelidad </h3>
                   <p>
                     Primero se han bocetado los wireframes lo-fi con papel y
                     lápiz, empezando con la versión de móvil para tener una
@@ -1198,13 +1205,13 @@ const Moveon = () => {
               </Row>
             </article>
 
-            <article id="prototipo">
+            <article id="diseñar">
               <Row className="mt-5">
                 <Col className="py-3">
                   <div className="d-flex flex-column align-items-center justify-content-center">
                     <div className="position-relative my-3">
                       <h2 className="fs-1 fw-light text-uppercase text-center">
-                        05. Prototipo
+                        04. Diseñar
                       </h2>
                       <div className="text-title-decoration"></div>
                     </div>
@@ -1223,16 +1230,16 @@ const Moveon = () => {
                       </p>
                       <ul className="border-left-sm p-2">
                         <li>
-                          <a href="#">5.1 Branding</a>
+                          4.1 Branding
                         </li>
                         <li>
-                          <a href="#">5.2 Accesibilidad y usabilidad</a>
+                          4.2 Accesibilidad y usabilidad
                         </li>
                         <li>
-                          <a href="#">5.3 Prototipo de alta fidelidad</a>
+                          4.3 Prototipo de alta fidelidad
                         </li>
                         <li>
-                          <a href="#">5.4 Flujo interactivo</a>
+                         4.4 Flujo interactivo
                         </li>
                       </ul>
                     </div>
@@ -1242,7 +1249,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">5.1- Branding</h3>
+                  <h3 id="branding" className="fs-4 mt-5 mb-3">4.1- Branding</h3>
                   <p>
                     Para definir la <b>identidad de marca</b>, primeramente he
                     pensado en darle un nombre que transmite movimiento,
@@ -1285,7 +1292,7 @@ const Moveon = () => {
                 <Col>
                   <div className="mt-3">
                     <h4 className="fs-5 mt-4">
-                      5.1.1- Paleta cromática
+                      4.1.1- Paleta cromática
                     </h4>
                     <p className="mt-3">
                      La elección de los colores responde a la intención de proyectar una imagen <b>fresca, energética y amigable</b>. Quería representar un ambiente en el que los usuarios sintieran confianza en sí mismos, dinamismo y movimiento.
@@ -1306,7 +1313,7 @@ const Moveon = () => {
                 <Col>
                   <div className="mt-3">
                     <h4 className="fs-5 mt-4">
-                      5.1.2- Tipografía
+                      4.1.2- Tipografía
                     </h4>
                     <p className="mt-3">
                     Para la construcción del sistema tipográfico se seleccionaron <b>dos familias</b> complementarias:
@@ -1330,7 +1337,7 @@ const Moveon = () => {
               </Row>
                             <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">5.2- Accesibilidad y usabilidad</h3>
+                  <h3 id="accesibilidad" className="fs-4 mt-5 mb-3">4.2- Accesibilidad y usabilidad</h3>
                   <p>
                     Durante el diseño se revisaron los contrastes de color mediante herramientas de validación de accesibilidad y de contraste utilizando la herramienta WebAIM Contrast Checker con el objetivo de garantizar la legibilidad y accesibilidad visual de la interfaz siguiendo las <b>recomendaciones WCAG</b>.
                   </p>
@@ -1359,7 +1366,7 @@ const Moveon = () => {
               </Row>
                                           <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">5.3- Wireframes de alta fidelidad</h3>
+                  <h3 id="prototipo-alta"className="fs-4 mt-5 mb-3">4.3- Prototipo de alta fidelidad</h3>
                   <p>
                     El prototipo final ha sido desarrollado en Figma para versión móvil. Se han diseñado un total de 11 pantallas conectadas mediante interacciones que permiten simular el flujo principal de navegación y compra de la aplicación.
                   </p>
@@ -1403,7 +1410,7 @@ const Moveon = () => {
               </Row>
                <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">5.4- Flujo interactivo</h3>
+                  <h3 id="flujo" className="fs-4 mt-5 mb-3">4.4- Flujo interactivo</h3>
                   <p>En base al diagrama de flujo realizado anteriormente y una vez desarrollado el prototipo de alta fidelidad, se añadieron las interacciones necesarias para simular el comportamiento real de la aplicación, para que el usuario pueda navegar entre las distintas pantallas de forma natural, reproduciendo las acciones habituales que realizaría durante una compra online.</p>
 <p>El <b>flujo principal</b> diseñado contempla las siguientes etapas:
 </p>
@@ -1425,13 +1432,13 @@ const Moveon = () => {
                   </Col>
                   </Row>
             </article>
-               <article id="prototipo">
+               <article id="test">
               <Row className="mt-5">
                 <Col className="py-3">
                   <div className="d-flex flex-column align-items-center justify-content-center">
                     <div className="position-relative my-3">
                       <h2 className="fs-1 fw-light text-uppercase text-center">
-                        06. Test
+                        05. Test
                       </h2>
                       <div className="text-title-decoration"></div>
                     </div>
@@ -1447,13 +1454,13 @@ const Moveon = () => {
                       </p>
                       <ul className="border-left-sm p-2">
                         <li>
-                          <a href="#">6.1 Definición de la muestra</a>
+                          5.1 Definición de la muestra
                         </li>
                         <li>
-                          <a href="#">6.2 Tareas del test</a>
+                          5.2 Tareas del test
                         </li>
                         <li>
-                          <a href="#">6.3 Resultados obtenidos</a>
+                          5.3 Resultados obtenidos
                         </li>
                       </ul>
                     </div>
@@ -1463,7 +1470,7 @@ const Moveon = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3 className="fs-4 mt-5 mb-3">6.1- Definición de la muestra</h3>
+                  <h3 id="definicion-muestra" className="fs-4 mt-5 mb-3">5.1- Definición de la muestra</h3>
                   <p>
                     La prueba se realizó con tres participantes que encajan dentro del público objetivo ya que también participaron durante la fase de investigación previa. El objetivo principal es comprobar si la navegación, la arquitectura de la información y el flujo de compra resultan comprensibles e intuitivos para los futuros usuarios de la aplicación.
                   </p>
